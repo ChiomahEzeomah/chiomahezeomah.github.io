@@ -1,0 +1,42 @@
+---
+title: "Research"
+---
+
+<img src= "REM18-276-0042.jpg" style="width:30%; border:5px solid; color: pink; margin-right: 20px" align="right">
+
+
+I have been involved with a few translational research projects. Below is a brief list of some of my research projects and the mentors I worked under: 
+
+[Prof. David Walker M.D.](https://researchexperts.utmb.edu/en/persons/david-walker)
+
+1.	Sequelae of Lassa Fever: Post Viral Cerebellar Ataxia. Chiomah Ezeomah, Adeyi Adoga, Chikwe Ihekweazu, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, David Walker. OFID (2019). [Link](https://academic.oup.com/ofid/article/6/12/ofz512/5650934)
+
+2.	Chiomah Ezeomah, Benjamin Babson, Tyler Manning, Emmanuel Jonathan, Sophie Osawe, Yakubu Mangai, Petronila Nwadike, Mohammad Muazu, Chris Akude, Edwin Eseigbe, Atiene Sagay, Godwin Imade, Oche Agbaji, Chikwe Ihekweazu, Alash’le Abimiku, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, Adeyi Adoga, and David Walker. Case Control Study of the association between Lassa virus infection and hearing loss. (In Progress). 
+
+[Dr. Irma Cisneros](https://www.utmb.edu/pathology/faculty-directory/irma-lisa-cisneros-phd)
+
+3.	Chiomah Ezeomah, Kathryn Cunningham, Sonja Stutz, Robert Fox, Natalya Bukreyeva, Kelly Dineley, Slobodan Paessler, and Irma Cisneros. Fentanyl self-administration impacts brain immune responses in male Sprague-Dawley rats. Brain, Behavior and Immunity (2020). [Link](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333)
+
+4.	Chiomah Ezeomah, Chanida Fongsaran, Amanda Persons, Celeste Napier, Irma Cisneros. Cocaine self-administration influences central nervous system immune responses in male HIV-1 transgenic rats. Cells (2022).
+
+[Prof. Slobodan Paessler](https://www.utmb.edu/pathology/faculty-directory/slobodan-paessler-dvm-phd)
+
+5.	John Manning, Nadya Yun, Alexey Seregin, Takaaki Koma, Rachel Sattler, Chiomah Ezeomah, Cheng Huang, Juan de la Torre, and Slobodan Paessler. The glycoprotein of the live-attenuated Junin virus vaccine strain induces ER stress and forms aggregates prior to degradation in the lysosome. Journal of Virology (2020). [Link](https://jvi.asm.org/content/94/8/e01693-19)
+
+[Prof. Myung-Hee Lee Ph.D.](https://vivo.weill.cornell.edu/display/cwid-myl2003)
+
+6.	Cody Nolan, Karl Reis, Salama Fadhil, Anthony Etyang, Chiomah Ezeomah, Justin R. Kingery, Bernard Desderius, Myung-Hee Lee, Saidi Kapiga, and Robert N. Peck. Nocturnal dipping of heart rate and blood pressure in people with HIV in Tanzania. Journal of Clinical Hypertension (2021). [Link](https://pubmed.ncbi.nlm.nih.gov/34080288/)
+
+[Prof. Monika Safford M.D.](https://vivo.weill.cornell.edu/display/cwid-mms9024)
+
+7. Jamuna Krishnan, Mangala Rajan, Ben Baer, Chiomah Ezeomah, Shana Hill, Mark Alshak, Katherine Hoffman, Fernando Martinez, Edward Schenck, Monika Safford. Morbidity impact of hospital level COVID-19 intubation strategy. (Abstract submitted to American Thoracic Society International Conference 2021)
+
+8. Jamuna Krishnan, Mangala Rajan, Benjamin Baer, Kathrine Hoffman, Mark Alshak, Kerri Aronson, Parag Goyal, Chiomah Ezeomah, Shana Hill, Fernando Martinez, Meredith Turetz, Martin Wells, Edward Schenck, Monika Safford. Assessing Mortality Differences Across Acute Respiratory Failure Management Strategies in Covid-19. Journal of Critical Care (2022). [Link](https://pubmed.ncbi.nlm.nih.gov/35490502/)
+
+9. Khalid Fahoum, Joanna Bryan Ringel, Jana Hirsch, Andrew Rundle, Evgeniya Reshetnyak, Madeline Sterling, Chiomah Ezeomah, Parag Goyal, Monika Safford. Development and validation of mortality prediction models based on the social determinants of health. (Abstract submitted to the Society of General Internal Medicine Annual Meeting 2022).
+
+10. Khalid Fahoum, Joanna Bryan Ringel, Jana Hirsch, Andrew Rundle, Emily Levitan, Evgeniya Reshetnyak, Madeline Sterling, Chiomah Ezeomah, Parag Goyal, Monika Safford. Development and validation of mortality prediction models based on the social determinants of health. BMJ Journal (2024). [Link](https://jech.bmj.com/content/78/8/508)
+
+[Prof. Teresa Lambe - Oxford Vaccine Group](https://www.ovg.ox.ac.uk/team/teresa-lambe)
+
+11. Chiomah Ezeomah. Characterizing humoral and cellular immune responses to ChAdOx1 and mRNA New World mammarenavirus vaccine candidates in male and female BALB/c mice. MSc Dissertation. 
