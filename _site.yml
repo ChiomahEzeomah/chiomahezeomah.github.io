@@ -20,6 +20,8 @@ navbar:
       href: https://twitter.com/ChiomahEzeomah
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/chiomahezeomah/
+    - icon: fa-youtube fa-lg
+      href: https://www.youtube.com/@LearnwithChiomah
       
 output:
   html_document
