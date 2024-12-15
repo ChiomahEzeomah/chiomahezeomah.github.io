@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Blog</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Chiomah Ezeomah</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;chiomah.ezeomah@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://chiomahezeomah.github.io">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/ChiomahEzeomah">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/chiomahezeomah/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/@LearnwithChiomah">
+    <span class="fa fa-youtube fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Blog</h1>
+
+</div>
+
+
+<div id="an-easy-guide-to-writing-functions-in-r"
+class="section level3">
+<h3>An Easy Guide to Writing Functions in R</h3>
+<div id="definition" class="section level4">
+<h4>Definition:</h4>
+<p>What is a function in R? A function in R is similar to a function in
+calculus because they both take input(s), perform operations on those
+input(s) and produce an output.</p>
+<p>So in calculus a function is something like:</p>
+<p>f(x) = 2x + 1; where 2x + 1 is the operation to be performed.</p>
+<p>If we input x = 1. We get an output of:</p>
+<p>f(1) = 2(1) + 1 = 3</p>
+<p>Functions in R have the same fundamental idea. We need:</p>
+<ol style="list-style-type: decimal">
+<li>Input(s) also called arguments in R</li>
+<li>To define the operation that will produce the output called the
+function</li>
+</ol>
+<p>For the R demonstrations in this tutorial, I will be using RMarkdown.
+Feel free to use base R as you follow along. I will also assume each
+person utilizing this tutorial has downloaded R studio. Otherwise, this
+is a <a href="https://rstudio.com/products/rstudio/download/">link</a>
+to download R Studio.</p>
+</div>
+<div id="working-environment" class="section level4">
+<h4>Working Environment</h4>
+<p>In R studio, click on file -&gt; new file -&gt; R Markdown:</p>
+</div>
+<div id="general-structure-of-an-r-function" class="section level4">
+<h4>General structure of an R function</h4>
+<p>Before we begin, let’s explore the overall structure of an R
+function.</p>
+<p>The overall structure of an R function has three important
+components:</p>
+<ol style="list-style-type: decimal">
+<li><p>Name- name the function in a way that specifies what the function
+does (this is good coding practice). E. g. If we want to write a
+function that calculates the mean blood pressure, we can name it: Avgbp
+&lt;-</p></li>
+<li><p>Detail the input (or argument). In R this is done with the
+function called function. E.g. function (a), where a is the input value
+for the function.</p></li>
+<li><p>Body of the function which is the code that defines the
+operations on the input to give the desired output. This is usually
+written in curly brackets.</p></li>
+</ol>
+<p>So in brief, the general structure of a function should look like
+this:</p>
+<p>Avgbp &lt;- function(a) {</p>
+<p>Body</p>
+<p>}</p>
+</div>
+<div id="example" class="section level4">
+<h4>Example:</h4>
+<p>Let’s compute the average systolic blood pressure (sbp) of patients
+as shown below:</p>
+<div id="group-1" class="section level5">
+<h5>Group 1:</h5>
+<p>Patient a: sbp = 120</p>
+<p>Patient b: sbp = 135</p>
+<p>Patient c: sbp = 115</p>
+</div>
+<div id="group-2" class="section level5">
+<h5>Group 2:</h5>
+<p>Patient d: sbp = 118</p>
+<p>Patient e: sbp = 127</p>
+<p>Patient f: sbp = 109</p>
+</div>
+<div id="group-3" class="section level5">
+<h5>Group 3:</h5>
+<p>Patient g: sbp = 139</p>
+<p>Patient h: sbp = 162</p>
+<p>Patient i: sbp = 105</p>
+</div>
+<div id="group-4" class="section level5">
+<h5>Group 4:</h5>
+<p>Patient j: sbp = 102</p>
+<p>Patient k: sbp = 133</p>
+<p>Patient l: sbp = 129</p>
+<pre class="r"><code>#Average sbp group 1: 
+meansbp1 &lt;- sum(120, 135, 115)/3
+meansbp1</code></pre>
+<pre><code>## [1] 123.3333</code></pre>
+<pre class="r"><code>#Average sbp group 2: 
+meansbp2 &lt;- sum(118, 127, 109)/3
+meansbp2</code></pre>
+<pre><code>## [1] 118</code></pre>
+<pre class="r"><code>#Average sbp group 3: 
+meansbp3 &lt;- sum(139, 162, 105)/3
+meansbp3</code></pre>
+<pre><code>## [1] 135.3333</code></pre>
+<pre class="r"><code>#Average sbp group 4: 
+meansbp4 &lt;- sum(102, 133, 129)/3
+meansbp4</code></pre>
+<pre><code>## [1] 121.3333</code></pre>
+<p>To calculate the average systolic blood pressure of the four groups,
+I had to copy and paste the formular I used for the first group 3
+times.</p>
+</div>
+</div>
+<div id="rule-of-thumb" class="section level4">
+<h4>Rule of Thumb</h4>
+<p>The rule of thumb in R programming is that if you have copied and
+pasted a formular two times, rather than repeat this a third time: WRITE
+A FUNCTION!</p>
+</div>
+</div>
+<div
+id="lets-write-a-function-to-calculate-the-average-systolic-blood-pressure"
+class="section level3">
+<h3>Let’s Write a function to calculate the average systolic blood
+pressure</h3>
+<pre class="r"><code>Avgsbp &lt;- function(x) {
+n &lt;- length(x)
+sum.x &lt;- sum(x)
+mean &lt;- sum.x/n
+return(mean)
+}</code></pre>
+<div id="elements-of-the-function-above-explained"
+class="section level5">
+<h5>Elements of the function above explained</h5>
+<ol style="list-style-type: decimal">
+<li>Name: We named our function Avgsbp</li>
+<li>Input: We have only one input for our function which is sbp. Note:
+Functions can have more than one input</li>
+<li>Operation 1: We defined the length of our values and placed it in a
+vector called n</li>
+<li>Operation 2: We defined the sum.x vector to calculate the sum of the
+values of x</li>
+<li>Operation 3: We defined the mean vector to calculate the mean using
+sum.x and n</li>
+<li>Output: We used the return function to call our output</li>
+</ol>
+</div>
+</div>
+<div id="lets-test-our-function" class="section level3">
+<h3>Let’s test our function</h3>
+<pre class="r"><code>#Average sbp group 1
+Avgsbp(c(120,135,115))</code></pre>
+<pre><code>## [1] 123.3333</code></pre>
+<pre class="r"><code>#Average sbp group 2
+Avgsbp(c(118, 127, 109))</code></pre>
+<pre><code>## [1] 118</code></pre>
+<pre class="r"><code>#Average sbp group 3
+Avgsbp(c(139, 162, 105))</code></pre>
+<pre><code>## [1] 135.3333</code></pre>
+<pre class="r"><code>Avgsbp(c(102, 133, 129))</code></pre>
+<pre><code>## [1] 121.3333</code></pre>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,20 +1,17 @@
-----
-title: "Chiomah Ezeomah, B.Sc, B.A., M.Sc."
+---
+title: "B.A, B.Sc, M.Sc (Cornell), M.Sc (Oxford)"
 ---
 
-Biostatistician/Data Scientist
+### Immunologist + Biostatistician/Data Scientist
 
----
-
----
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 
-<img src= "IMG_0481-1.jpg" style="width:40%; border:5px solid; color: pink; margin-right: 20px" align="right">
+<img src= "IMG_0481-1.jpeg" style="width:35%; border:5px solid; color: pink; margin-right: 20px" align="right">
 
 I am an immunologist and a biostatistician/ data scientist / analyst who is passionate about infectious diseases research. I am particularly interested in viruses like SARS-CoV-2, Lassa, Ebola and their mechanisms of cellular damage in organ systems in the body like the brain. I hold a masters degree in Biostatistics and Data Science from [Cornell University](https://gradschool.weill.cornell.edu/biostatistics-and-data-science), and a second masters degree in Integrated Immunology from the [University of Oxford](https://www.nds.ox.ac.uk). 
 
 For my undergraduate studies, I studied biological sciences, mathematics and economics at the [University at Buffalo](http://www.buffalo.edu). I then worked at the [Galveston National Laboratory](https://www.utmb.edu/gnl) at the [University of Texas Medical Branch](https://www.utmb.edu) for over two years where I conducted research on the following viruses: Lassa virus, Junin virus, Zika virus, Influenza virus, as well as HIV.  
 
-My resume is available [here](EzeomahChiomahCV_Dec2024.pdf).
+My resume is available [here](EzeomahChiomahCV_Dec2024_Git.pdf).
