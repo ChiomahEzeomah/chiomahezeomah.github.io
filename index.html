@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -221,6 +224,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +294,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -300,11 +376,138 @@ $(document).ready(function () {
 </div>
 
 
-<div id="immunologist-biostatisticiandata-scientist"
-class="section level3">
-<h3>Immunologist + Biostatistician/Data Scientist</h3>
+<div id="grant-pitch-proposal" class="section level2">
+<h2>Grant Pitch Proposal</h2>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p><img src= "IMG_0481-1.jpeg" style="width:35%; border:5px solid; color: pink; margin-right: 20px" align="right"></p>
+<p>Audience: Cornell University Alumni Community</p>
+<p>Fundraising: Grant Support to Establish Three Biosafety Training
+Laboratories in Nigeria</p>
+<div id="background" class="section level3">
+<h3>Background:</h3>
+<p>I am appealing for support for a transformative public health
+initiative in Nigeria: the establishment of three Biosafety Level 2
+(BSL2) training laboratories through my company, Biosafety Management
+Company. With deep academic roots at Cornell University, Oxford, and
+Harvard, and a proven track record of leading complex biosafety
+infrastructure projects across Nigeria, I am uniquely positioned to
+deliver this critical initiative.</p>
+<p>Your support, as a Cornell alumnus, will directly contribute to
+building local biosafety training capacity, strengthening infectious
+disease diagnostics, and protecting frontline health professionals
+across West Africa.</p>
+</div>
+<div id="about-the-founder" class="section level3">
+<h3>About the Founder:</h3>
+<p>As a graduate of Weill Cornell Graduate School of Medical Sciences, I
+completed an MSc in Biostatistics and Data Science with impactful
+research at the Center for Global Health. My academic journey includes
+advanced immunology training at the University of Oxford and global
+infectious disease training at Harvard T.H. Chan School of Public
+Health. I have co-authored multiple peer-reviewed publications and
+contributed to research on Lassa Fever, HIV, COVID-19, and emerging
+viral threats. Drawing on a unique blend of academic excellence,
+hands-on virology experience, and public health leadership, I founded
+Biosafety Management Company to bridge the infectious disease
+diagnostic, infrastructure, and biosafety gap in Nigeria: a country
+disproportionately affected by Lassa Fever, HIV, tuberculosis, and other
+high-consequence pathogens.</p>
+</div>
+<div id="track-record-of-impact" class="section level3">
+<h3>Track Record of Impact:</h3>
+<p>Biosafety Management Company has:</p>
+<p>• Designed/remodeled two BSL-2 laboratories at the Taraba State
+Specialist Hospital, Taraba State, and set up one BSL-2 laboratory at
+the General Hospital Takum, Taraba State. These three laboratories
+contributed to taking Taraba State from zero testing capacity to full
+in-state testing capacity during the COVID-19 outbreak.</p>
+<p>• Designed and set up the first state government-owned, purpose-built
+BSL-2 laboratory in Benue State for the Benue State Government. This
+laboratory contributed to strengthening infectious diseases testing in
+Benue State.</p>
+<p>• Trained 60 lab professionals and health officials, including
+personnel from the Nigerian Ministry of Defense and the U.S. Army
+Medical Research Directorate – Africa, the Benue State Ministry of
+Health and Human Services, and the Benue State University Teaching
+Hospital.</p>
+<p>Each project has delivered measurable public health outcomes and
+earned high-level commendation from U.S. and Nigerian government
+agencies.</p>
+<p>In the course of our work, we observed a significant gap in
+infectious disease control: many frontline medical and laboratory
+personnel lacked the training to safely handle infectious materials in a
+way that prevents unintended release to the community and poses a risk
+to public health. In response, we began providing biosafety training to
+laboratory and medical personnel.</p>
+<p>We now seek funding to expand this training initiative by building
+and equipping three BSL2 training laboratories in Nigeria: located in
+Lagos, Abuja, and Abia, to train laboratory and medical personnel at
+scale.</p>
+</div>
+<div id="the-proposal-three-new-biosafety-training-laboratories"
+class="section level3">
+<h3>The Proposal: Three New Biosafety Training Laboratories</h3>
+<p>We are now scaling this impact. Our vision is to build three
+strategically located BSL2 biosafety training laboratories in Nigeria,
+specifically designed for:</p>
+<p>• Capacity building of laboratory personnel across West Africa.</p>
+<p>• Delivery of certified biosafety and biosecurity training based on
+WHO standards.</p>
+<p>• Supporting regional outbreak preparedness, surveillance, and
+diagnostics.</p>
+<p>Each facility will be equipped with:</p>
+<p>• Modular classrooms for theory instruction</p>
+<p>• Fully functional wet labs for practical training</p>
+<p>• Decontamination and PPE training areas</p>
+<p>• Advanced biosafety training curriculum, tailored to regional
+needs</p>
+</div>
+<div id="why-support-this-why-now" class="section level3">
+<h3>Why Support This? Why Now?</h3>
+<p>• Biosafety saves lives: Inadequate training and facilities
+contribute to lab-acquired infections and delayed outbreak responses. In
+addition, this can lead to the unintended spread of infectious materials
+to the community, which can drive community-level spread of infectious
+diseases.</p>
+<p>• Nigeria is a biosafety priority zone, as a hotspot for Lassa Fever,
+with increasing zoonotic spillover risks.</p>
+<p>• Cornell alumni have a legacy of global leadership, and this is an
+opportunity to uphold that legacy in global health and security.</p>
+</div>
+<div id="budget-and-support-needed" class="section level3">
+<h3>Budget and Support Needed</h3>
+<p>We are seeking USD750,000 in total grant support, or USD250,000 per
+laboratory. Funds will cover:</p>
+<p>• Construction/remodeling and equipment procurement</p>
+<p>• Curriculum development</p>
+<p>• Faculty recruitment and training-of-trainers program</p>
+<p>• Operational costs for 18 months</p>
+<p>All donors will receive:</p>
+<p>• Impact reports</p>
+<p>• Recognition in lab infrastructure</p>
+<p>• Invitations to stakeholder briefings and facility tours (virtual or
+in-person)</p>
+</div>
+<div id="call-to-action" class="section level3">
+<h3>Call to Action</h3>
+<p>• As a proud Cornellian, I am inviting my fellow alumni to invest in
+sustainable, African-led biosafety infrastructure. Your support will not
+only build labs but also empower health systems and protect lives across
+the continent.</p>
+<p>• Let’s build a safer future together.</p>
+<p>• Please kindly reach out to me via email, phone, or LinkedIn if you
+are interested in supporting this initiative and/or if you need more
+information.</p>
+<p>Kind regards,</p>
+<p>Chiomah Ezeomah, MSc (Oxford), MSc (Cornell)</p>
+<p>Founder &amp; Lead Consultant, Biosafety Management Company</p>
+<p><a href="mailto:chiomah.ezeomah@gmail.com"
+class="email">chiomah.ezeomah@gmail.com</a> | +234-8162997083 |
+LinkedIn: www.linkedin.com/in/chiomahezeomah</p>
+</div>
+</div>
+<div id="resume" class="section level2">
+<h2>Resume</h2>
 <p>I am an immunologist and a biostatistician/ data scientist / analyst
 who is passionate about infectious diseases research. I am particularly
 interested in viruses like SARS-CoV-2, Lassa, Ebola and their mechanisms
@@ -323,11 +526,13 @@ Medical Branch</a> for over two years where I conducted research on the
 following viruses: Lassa virus, Junin virus, Zika virus, Influenza
 virus, as well as HIV.</p>
 <p>My resume is available <a
-href="EzeomahChiomahCV_Dec2024_Git.pdf">here</a>.</p>
+href="EzeomahResumeApr2025Git.pdf">here</a>.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -360,6 +565,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

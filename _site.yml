@@ -24,5 +24,6 @@ navbar:
       href: https://www.youtube.com/@LearnwithChiomah
       
 output:
-  html_document
+  html_document:
+    theme: flatly
   
