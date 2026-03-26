@@ -1,0 +1,29 @@
+---
+title: "Infectious Diseases Research"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I analyze infectious diseases papers and discuss epidemiology, immunology, implementation, and statistical methods.
+:::
+
+Topics may include: 
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- outbreak research 
+- pathogen biology 
+- implementation science 
+- diagnostics 
+- disease surveillance 
+- public health response
+:::
+:::
+
+## Recent Posts

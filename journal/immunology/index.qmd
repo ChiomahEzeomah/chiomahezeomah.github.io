@@ -1,0 +1,28 @@
+---
+title: "Immunology"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+
+::: {.journal-hero}
+In this section, I review cancer research papers, methods, experimental design, and the interpretation of immunologic data in a clear, teaching-oriented format.
+:::
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- innate and adaptive immunity
+- T-cell and B-cell biology
+- cytokines and signaling
+- flow cytometry
+- immunological assays
+- interpretation of results
+:::
+:::
+
+## Recent Posts

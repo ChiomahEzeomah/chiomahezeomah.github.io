@@ -1,0 +1,29 @@
+---
+title: "Cancer Research"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I review cancer research papers and explain the methods, statistics, and biological reasoning behind the findings.
+
+:::
+
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- tumor immunology
+- biomarkers
+- survival analysis
+- experimental therapeutics
+- cancer genomics
+- translational oncology
+:::
+:::
+
+## Recent Posts

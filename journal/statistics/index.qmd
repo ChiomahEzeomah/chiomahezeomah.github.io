@@ -1,0 +1,27 @@
+---
+title: "Statistics"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I explain statistical methods used in biomedical and public health research in a clear and practical way.
+:::
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- hypothesis testing 
+- confidence intervals 
+- regression 
+- survival analysis 
+- study design 
+- common mistakes in interpretation
+:::
+:::
+
+## Recent Posts

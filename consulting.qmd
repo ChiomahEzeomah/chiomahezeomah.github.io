@@ -1,0 +1,477 @@
+---
+title: "Scientific Consulting & Capacity Building"
+page-layout: article
+body-classes: center-title
+---
+
+When I left Nigeria to pursue my studies in the United States, my dearly beloved father, [Professor Ardo Chimah Ezeomah](https://profardochimahezeomah.github.io) had one important wish for me. As a distinguished Nigerian professor, he believed strongly that one of my responsibilities as a Nigerian was to return home someday and contribute meaningfully to the growth of my country. He hoped that whatever knowledge, training, and opportunities I gained abroad would ultimately be used in service of Nigeria.
+
+That conviction stayed with me. In time, I used the social enterprise I founded, Biosafety Management Company, as a vehicle to help fulfill that wish. Through it, I was able to contribute to laboratory systems strengthening, biosafety capacity building, infectious disease preparedness, and public health implementation in Nigeria. Looking back on this work, I feel a deep sense of gratitude and responsibility, and I now feel that I have honored that charge and paid my dues.
+
+
+From 2020 to about 2025, I led and contributed to scientific consulting and implementation work through Biosafety Management Company, focused on strengthening infectious diseases preparedness and laboratory systems.
+
+This work reflects the applied side of my scientific mission: connecting biosafety, immunology, laboratory systems, and infectious diseases expertise to practical public health capacity building.
+
+## Selected Work
+
+### Laboratory Design and Setup
+We supported the design and setup of BSL-2 infectious diseases laboratories for:
+
+
+### Taraba State
+
+In 2020, Biosafety Management Company was engaged as a consultant to the Taraba State Government and the Taraba State Ministry of Health during a critical stage of the COVID-19 pandemic. At the time, Taraba State did not have in-state capacity to test for SARS-CoV-2 and had to transport samples over long distances to Abuja, approximately 609 km away, or to Jos, approximately 470 km away. This created delays in testing and placed significant strain on the state’s response capacity.
+
+My first assignment was to urgently remodel a space within the state-government owned Taraba State Specialist Hospital (TSSH) to enable the commencement of SARS-CoV-2 testing in the state. This work was driven by the immediate need to expand local diagnostic capacity and reduce turnaround times for COVID-19 testing.
+
+Because Taraba State is geographically large, we also worked collaboratively with UNHCR to expand testing access beyond the state capital. UNHCR provided funding for remodeling, while Biosafety Management Company led the setup of COVID-19 testing capacity at General Hospital Takum.
+
+In addition, we remodeled another space within the Taraba State Specialist Hospital into a BSL-2 infectious disease laboratory to strengthen the state’s longer-term laboratory infrastructure. In 2021, this laboratory was visited by Kathleen FitzGibbon, then U.S. Deputy Chief of Mission, alongside colleagues from the U.S. CDC and the U.S. Department of Defense. The laboratory was later selected by NACA for upgrade to a BSL-3 laboratory with funding from the Global Fund, reflecting its strategic importance to infectious disease preparedness and response in the North-East and in Nigeria. 
+
+Furthermore, in Taraba State, we were also engaged by the Federal Medical Center, Jalingo to design a purpose-built laboratory facility. As part of this work, we supported the institution in developing, writing, submitting, and presenting its grant application to the North East Development Commission. The application was successful, and the Federal Medical Center, Jalingo secured grant funding for the construction of a purpose-built BSL-2 laboratory, further strengthening laboratory infrastructure and infectious disease preparedness in the state.
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/taraba1.jpg){.work-gallery-img .focus-right}
+:::
+
+::: {.column width="50%"}
+![](images/taraba2.jpg){.work-gallery-img .focus-left}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/taraba3.jpg){.work-gallery-img style="object-position: center top;"}
+:::
+
+::: {.column width="50%"}
+![](images/taraba4.jpg){.work-gallery-img style="object-position: center top;"}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/taraba5.jpeg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/taraba6.jpeg){.work-gallery-img .focus-center}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/taraba7.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/taraba8.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/taraba9.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/taraba10.jpg){.work-gallery-img .focus-right}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/taraba11.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/taraba12.jpg){.work-gallery-img .focus-left}
+:::
+::::
+
+### Benue State
+
+In January 2021, Biosafety Management Company was engaged as a consultant to the Benue State Government and the Benue State Ministry of Health and Human Services to design and set up the state’s first state-owned BSL infectious disease laboratory. This project represented an important step in strengthening Benue State’s laboratory infrastructure and expanding in-state diagnostic capacity for infectious diseases.
+
+In addition to the laboratory design and setup, we were also engaged to train laboratory personnel who would work in the facility. As part of this effort, we delivered BSL-2 training to 20 laboratory personnel in 2022, helping to ensure that the laboratory could operate safely and effectively in line with biosafety standards.
+
+The laboratory was completed in 2022, and tuberculosis testing began there that same year. Funding for the laboratory was provided by the Benue State Government, while implementation support was strengthened through partnerships with organizations such as APIN and KNCV.
+
+In 2022, the laboratory also received visits from representatives of the World Health Organization, reflecting the importance of the project within the broader public health and laboratory strengthening landscape. The laboratory was also visited at different stages of the project by His Excellency Governor Samuel Ortom and by his deputy, who served as Chairman of the COVID-19 Committee, underscoring the state government’s commitment to building sustainable infectious disease diagnostic capacity in Benue State. In 2024, the laboratory was also visited by the current governor, His Excellency Governor Hyacinth Alia, further highlighting the continued relevance of the facility to the state’s public health infrastructure.
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue1.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue2.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue3.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue4.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue5.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue6.jpg){.work-gallery-img .focus-right}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue7.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue8.jpg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue9.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue10.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue11.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue12.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue13.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue14.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue15.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue16.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue17.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue18.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue19.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue20.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue21.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue22.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue23.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue24.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue25.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue26.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/benue27.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/benue28.jpg){.work-gallery-img}
+:::
+::::
+
+### Biosafety Training
+We delivered BSL-2 biosafety training for laboratory personnel, including work connected to:
+- Walter Reed Program
+- USAMRD-A
+- Nigerian laboratory partners
+
+### USAMRD-A/N / NMoD Donation and Training
+
+In 2023, Biosafety Management Company made a donation of a SteraPak in collaboration with its U.S. manufacturers to the U.S. Army Medical Research Directorate–Africa/Nigeria (USAMRD-A/N), also known as the Walter Reed Program in Nigeria. The SteraPak was installed at one of USAMRD-A/N’s partner laboratories, the Defence Reference Laboratory in Abuja. The donation was received by the Country Director of USAMRD-A/N, Helina Meri, and on behalf of the Nigerian Ministry of Defence by the Director General of the Ministry of Defence Health Implementation Program, Brigadier General N. A. E. Okeji (Rtd.). In addition to the donation, we also provided training in 2023 on the use of the SteraPak to support its effective deployment.
+
+In 2024, Biosafety Management Company was engaged by USAMRD-A/N to provide BSL-2 training to senior members of USAMRD-A/N as well as civilian and military personnel of the Nigerian Ministry of Defence. As part of this engagement, we developed the training manual and facilitated the course in Abuja for 40 participants.
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd1.jpeg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/usamrd2.jpeg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd3.jpeg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/usamrd4.jpeg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd5.jpeg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/usamrd6.jpeg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd7.jpeg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/usamrd8.jpeg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd9.jpeg){.work-gallery-img}
+:::
+::: {.column width="50%"}
+![](images/usamrd10.jpeg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd11.jpeg){.work-gallery-img}
+:::
+::: {.column width="50%"}
+![](images/usamrd12.jpeg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd13.jpeg){.work-gallery-img}
+:::
+::: {.column width="50%"}
+![](images/usamrd14.jpeg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/usamrd17.jpeg){.work-gallery-img}
+:::
+::: {.column width="50%"}
+![](images/usamrd16.jpeg){.work-gallery-img}
+:::
+::::
+
+### Institute of Human Virology Nigeria
+
+In 2023, Biosafety Management Company made a donation of the SteraPak in collaboration with its U.S. manufacturers to the Institute of Human Virology Nigeria (IHVN) Research Center of Excellence. The donation was received by senior members of the IHVN team, and as part of this contribution, we also trained laboratory personnel on the effective use of the SteraPak to support safe and efficient laboratory operations.
+
+Furthermore, in 2025, we supported the strengthening of IHVN’s laboratory operations through the provision of selected laboratory equipment designed to enhance workflow efficiency, operational readiness, and diagnostic capacity. This support reflected our broader mission of advancing laboratory systems strengthening and improving the infrastructure needed for high-quality infectious disease and public health laboratory practice.
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ihvn1.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ihvn2.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ihvn3.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ihvn4.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ihvn5.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ihvn6.jpg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ihvn7.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ihvn8.jpg){.work-gallery-img}
+
+:::
+::::
+
+### Nigerian Center for Disease Control
+
+In 2018, I made a donation on behalf of Professor Slobodan Paessler’s group at the Galveston National Laboratory, University of Texas Medical Branch (UTMB) of laboratory diagnostic tools to the Nigerian Center for Disease Control (NCDC). The donation was received by Dr. Chikwe Ihekweazu, then Director General of the NCDC, together with other senior directors of the agency.
+
+In addition, I served as a liaison on behalf of the Paessler group at the Galveston National Laboratory, supporting the transfer of biological materials between UTMB and the NCDC. This role contributed to scientific collaboration, laboratory partnership, and the strengthening of research and public health linkages between both institutions.
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ncdc1.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ncdc2.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/ncdc3.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/ncdc4.jpg){.work-gallery-img}
+:::
+::::
+
+### NVRI VOM, Plateau State Nigeria
+
+Before graduating from the University at Buffalo, I completed an undergraduate thesis as part of both the University’s Honors Scholars Program and the Biology Department Honors Program. My thesis focused on Lassa fever, an experience that sparked a deeper commitment to infectious diseases research and helped define the trajectory of my scientific career.
+
+Following this work, I traveled to Nigeria to volunteer at the Jos University Teaching Hospital, University of Jos, where I gained early exposure to the practical realities of research and laboratory work in a resource-limited setting. As part of this experience, I contributed to a grant application being developed by the Paessler Group for a Lassa fever hearing loss study. In support of that effort, I also visited laboratories in Jos, Plateau State, to help identify a facility that would be well suited for collaboration with UTMB. This experience was formative: it connected my academic training to real-world laboratory and public health needs, introduced me to the importance of scientific partnerships across institutions and countries, and laid the foundation for my later work in laboratory systems strengthening, infectious disease implementation, and international scientific collaboration.
+
+Visit on behalf of the Paessler Group at the GNL, UTMB, Texas
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/nvri1.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/nvri2.jpg){.work-gallery-img}
+:::
+:::: 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/nvri3.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/nvri4.jpg){.work-gallery-img}
+:::
+::::
+
+### Lassa Fever International Conference: “50 Years of Lassa Fever: Rising to the Challenge, 2019, Nigeria
+
+In 2019, I joined a team of distinguished professors from the University of Texas Medical Branch (UTMB), including my principal investigator, Professor Slobodan Paessler, and collaborators such as Professor Oyewale Tomori, in attending the 50 Years of Lassa Fever Conference organized by the Nigerian Center for Disease Control (NCDC) in Abuja, Nigeria. The conference provided an important forum for scientific exchange on Lassa fever research, public health response, and future directions in control and prevention.
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/lassac1.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/lassac2.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/lassac3.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/lassac4.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/lassac5.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/lassac6.jpg){.work-gallery-img}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/lassac7.jpg){.work-gallery-img}
+:::
+
+::: {.column width="50%"}
+![](images/lassac8.jpg){.work-gallery-img}
+
+:::
+::::

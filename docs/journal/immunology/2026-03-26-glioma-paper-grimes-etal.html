@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Author/Curator: Chiomah Ezeomah">
+<meta name="dcterms.date" content="2026-03-26">
+<meta name="description" content="A teaching-focused journal club on Grimes et al., Part I. This post explains the background, experimental design, and interpretation of Figure 1a–e, including scRNA-seq, flow cytometry, and statistical reanalysis.">
+
+<title>Blog IMM-001- Reading Grimes et al., Part I: oHSV alters the TME and increases MHCII on residual tumor cells - Fig. 1a - e – Chiomah Ezeomah</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6d4e4c6c342646cac9792aff734a6985.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-eb4c5518b2fca15ac38a17dcab329730.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chiomah Ezeomah</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../consulting.html"> 
+<span class="menu-text">Consulting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chiomah.ezeomah@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ChiomahEzeomah"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/chiomahezeomah/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@LearnwithChiomah"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#citation" id="toc-citation" class="nav-link active" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#why-this-paper-matters" id="toc-why-this-paper-matters" class="nav-link" data-scroll-target="#why-this-paper-matters">Why this paper matters</a></li>
+  <li><a href="#main-scientific-question" id="toc-main-scientific-question" class="nav-link" data-scroll-target="#main-scientific-question">Main scientific question</a></li>
+  <li><a href="#analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper." id="toc-analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper." class="nav-link" data-scroll-target="#analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper.">Analysis Part I: Part I of this analysis will focus on result 1 from the paper.</a></li>
+  <li><a href="#study-design-for-fig.-1a-c" id="toc-study-design-for-fig.-1a-c" class="nav-link" data-scroll-target="#study-design-for-fig.-1a-c">Study design for Fig. 1a-c</a>
+  <ul class="collapse">
+  <li><a href="#fig.-1a-c" id="toc-fig.-1a-c" class="nav-link" data-scroll-target="#fig.-1a-c">Fig. 1a-c:</a></li>
+  </ul></li>
+  <li><a href="#study-design-for-fig.-1d-e" id="toc-study-design-for-fig.-1d-e" class="nav-link" data-scroll-target="#study-design-for-fig.-1d-e">Study design for Fig. 1d-e</a>
+  <ul class="collapse">
+  <li><a href="#fig.-1d-e" id="toc-fig.-1d-e" class="nav-link" data-scroll-target="#fig.-1d-e">Fig. 1d-e:</a></li>
+  </ul></li>
+  <li><a href="#methods-explained" id="toc-methods-explained" class="nav-link" data-scroll-target="#methods-explained">Methods explained</a>
+  <ul class="collapse">
+  <li><a href="#single-cell-rna-seq" id="toc-single-cell-rna-seq" class="nav-link" data-scroll-target="#single-cell-rna-seq">Single-Cell RNA-seq</a></li>
+  <li><a href="#flow-cytometry" id="toc-flow-cytometry" class="nav-link" data-scroll-target="#flow-cytometry">Flow cytometry</a></li>
+  </ul></li>
+  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key results</a></li>
+  <li><a href="#results-explained" id="toc-results-explained" class="nav-link" data-scroll-target="#results-explained">Results Explained</a></li>
+  <li><a href="#statistics-explained-fig.-1e-only" id="toc-statistics-explained-fig.-1e-only" class="nav-link" data-scroll-target="#statistics-explained-fig.-1e-only">Statistics explained (Fig. 1e Only)</a>
+  <ul class="collapse">
+  <li><a href="#analyzing-frequency-data-with-two-way-anova" id="toc-analyzing-frequency-data-with-two-way-anova" class="nav-link" data-scroll-target="#analyzing-frequency-data-with-two-way-anova">Analyzing frequency data with two-way ANOVA</a></li>
+  <li><a href="#normality-of-residuals" id="toc-normality-of-residuals" class="nav-link" data-scroll-target="#normality-of-residuals">Normality of Residuals:</a></li>
+  <li><a href="#q-q-plot" id="toc-q-q-plot" class="nav-link" data-scroll-target="#q-q-plot">Q-Q Plot</a></li>
+  <li><a href="#homoscedasticity" id="toc-homoscedasticity" class="nav-link" data-scroll-target="#homoscedasticity">Homoscedasticity</a></li>
+  <li><a href="#visualizing-mhcii-frequency-over-time" id="toc-visualizing-mhcii-frequency-over-time" class="nav-link" data-scroll-target="#visualizing-mhcii-frequency-over-time">Visualizing MHCII Frequency over time</a></li>
+  <li><a href="#analyzing-mfi-data-with-two-way-anova" id="toc-analyzing-mfi-data-with-two-way-anova" class="nav-link" data-scroll-target="#analyzing-mfi-data-with-two-way-anova">Analyzing MFI data with two-way ANOVA</a></li>
+  <li><a href="#normality-of-residuals-1" id="toc-normality-of-residuals-1" class="nav-link" data-scroll-target="#normality-of-residuals-1">Normality of Residuals:</a></li>
+  <li><a href="#q-q-plot-1" id="toc-q-q-plot-1" class="nav-link" data-scroll-target="#q-q-plot-1">Q-Q Plot</a></li>
+  <li><a href="#homoscedasticity-1" id="toc-homoscedasticity-1" class="nav-link" data-scroll-target="#homoscedasticity-1">Homoscedasticity</a></li>
+  <li><a href="#log-transformation-of-mfi-model" id="toc-log-transformation-of-mfi-model" class="nav-link" data-scroll-target="#log-transformation-of-mfi-model">Log-transformation of MFI model</a></li>
+  <li><a href="#two-way-anova-of-log-transformed-mfi-variable" id="toc-two-way-anova-of-log-transformed-mfi-variable" class="nav-link" data-scroll-target="#two-way-anova-of-log-transformed-mfi-variable">Two-way ANOVA of Log-transformed MFI variable</a></li>
+  <li><a href="#normality-of-residuals-2" id="toc-normality-of-residuals-2" class="nav-link" data-scroll-target="#normality-of-residuals-2">Normality of Residuals:</a></li>
+  <li><a href="#q-q-plots" id="toc-q-q-plots" class="nav-link" data-scroll-target="#q-q-plots">Q-Q Plots</a></li>
+  <li><a href="#homoscedasticity-2" id="toc-homoscedasticity-2" class="nav-link" data-scroll-target="#homoscedasticity-2">Homoscedasticity</a></li>
+  </ul></li>
+  <li><a href="#post-hoc-analysis" id="toc-post-hoc-analysis" class="nav-link" data-scroll-target="#post-hoc-analysis">Post-hoc analysis</a>
+  <ul class="collapse">
+  <li><a href="#post-hoc-analysis-for-day" id="toc-post-hoc-analysis-for-day" class="nav-link" data-scroll-target="#post-hoc-analysis-for-day">Post-hoc analysis for day</a></li>
+  <li><a href="#treatment-marginal-means" id="toc-treatment-marginal-means" class="nav-link" data-scroll-target="#treatment-marginal-means">Treatment marginal means</a></li>
+  <li><a href="#treatment-comparisons-within-each-day" id="toc-treatment-comparisons-within-each-day" class="nav-link" data-scroll-target="#treatment-comparisons-within-each-day">Treatment comparisons within each day</a></li>
+  <li><a href="#visualizing-mhcii-mfi-over-time" id="toc-visualizing-mhcii-mfi-over-time" class="nav-link" data-scroll-target="#visualizing-mhcii-mfi-over-time">Visualizing MHCII MFI over time</a></li>
+  </ul></li>
+  <li><a href="#strengths" id="toc-strengths" class="nav-link" data-scroll-target="#strengths">Strengths</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#in-summary" id="toc-in-summary" class="nav-link" data-scroll-target="#in-summary">In summary…</a></li>
+  <li><a href="#questions-for-further-consideration" id="toc-questions-for-further-consideration" class="nav-link" data-scroll-target="#questions-for-further-consideration">Questions for further consideration</a></li>
+  <li><a href="#references-and-image-credits" id="toc-references-and-image-credits" class="nav-link" data-scroll-target="#references-and-image-credits">References and image credits</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blog IMM-001- Reading Grimes et al., Part I: oHSV alters the TME and increases MHCII on residual tumor cells - Fig. 1a - e</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Immunology</div>
+    <div class="quarto-category">Oncology</div>
+    <div class="quarto-category">Vaccine Development</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Journal Club</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A teaching-focused journal club on Grimes et al., Part I. This post explains the background, experimental design, and interpretation of Figure 1a–e, including scRNA-seq, flow cytometry, and statistical reanalysis.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Author/Curator: Chiomah Ezeomah </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>Grimes JM, Ghosh S, Manzoor S, Li LX, Moran MM, Clements JC, Alexander SD, Markert JM, Leavenworth JW. <strong>Oncolytic reprogramming of tumor microenvironment shapes CD4⁺ T-cell memory via the IL6ra-Bcl6 axis for targeted control of glioblastoma.</strong> Nature Communications. 2025;16:1095. Open access.</p>
+</section>
+<section id="why-this-paper-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-paper-matters">Why this paper matters</h2>
+<p>Glioblastoma multiforme (GBM) is the most common form of glioma, a type of primary brain cancer which has an incidence of about 25,000 new cases per year in the US adult population. Clinical management of GBM is faced with challenges including:</p>
+<ol type="1">
+<li><p>Getting therapeutics to cross the blood-brain barrier and reach tumor cells.</p></li>
+<li><p>the ‘cold’ state of the tumor microenvironment which causes immunosuppression that is characteristic of GBM, this cold state is a notable immune evasion mechanism in GBM.</p></li>
+<li><p>With the standard of care, GBM has a high rate of recurrence with aggressive regrowth.</p></li>
+</ol>
+<p>In this study, Grimes et al.&nbsp;used an oncolytic herpes simplex virus (oHSV) expressing murine IL12 (M002) to show that in murine models of GBM (GSC005), M002 alters the tumor microenvironment. Specifically, the results showed that mice treated with M002 had fewer tumor cells and microglia and more T cells in the tumor microenvironment.</p>
+<p>Clinically, these results suggest that oHSV has the potential to induce tumor cell killing and shift the immune state from immunosuppressive ‘cold’ to immunostimulatory ‘hot’ by increasing the T cell infiltration into the TME and increasing the MHC class II (MHCII) expression on intratumoral cells including residual tumor cells. Increased MHCII expression, including on residual tumor cells may facilitate engagement with T cells and help suppress long-term recurrence.</p>
+<p>While this study was in murine models, it holds promise for clinical management of GBM in humans and can potentially improve the outcomes for patients with this form of cancer.</p>
+</section>
+<section id="main-scientific-question" class="level2">
+<h2 class="anchored" data-anchor-id="main-scientific-question">Main scientific question</h2>
+<p><strong>Primary question:</strong></p>
+<p>Can a neurotropic virus such as oHSV be engineered to alter the tumor microenvironment in glioblastoma multiforme and improve the therapeutic outcomes of patients with this form of cancer?</p>
+<p><strong>Mechanistic question:</strong></p>
+<p>By what mechanism does oHSV boost anti-tumor immune responses and how long does that immunity last?</p>
+</section>
+<section id="analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper." class="level2">
+<h2 class="anchored" data-anchor-id="analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper.">Analysis Part I: Part I of this analysis will focus on result 1 from the paper.</h2>
+<p><em>Result 1:</em> Treatment with oncolytic herpes simplex virus expressing murine IL12 (M002) alters the immunophenotype of the GBM tumor microenvironment in syngeneic murine models (GSC005) and upregulates the expression of MHCII molecules on residual tumor cells.</p>
+</section>
+<section id="study-design-for-fig.-1a-c" class="level2">
+<h2 class="anchored" data-anchor-id="study-design-for-fig.-1a-c">Study design for Fig. 1a-c</h2>
+<div style="text-align: center;">
+<p><img src="images/exp.workflow.fig1a-c.jpg" width="100%"></p>
+<p>
+<em>Schematic 1: Experimental workflow summarizing the in vivo design for Fig. 1a–c.</em>
+</p>
+</div>
+<section id="fig.-1a-c" class="level3">
+<h3 class="anchored" data-anchor-id="fig.-1a-c">Fig. 1a-c:</h3>
+<p><strong>Study Design:</strong> The authors used a controlled, cross-sectional in-vivo animal study to investigate changes to the tumor microenvironment following oHSV treatment using single-cell RNA-seq.</p>
+<p><strong>Syngeneic murine model:</strong> GSC005, a syngeneic murine GBM model in C57BL/6 (B6) mice.</p>
+<p><strong>Time point:</strong> day 45</p>
+<p><strong>N:</strong> M002 (n=3); saline (n=3)</p>
+<p><strong>Method:</strong> Single-cell RNA transcriptomics</p>
+<p><strong>Note:</strong> Although 15,241 cells were analyzed, the experimental unit is the mouse, not the cell.</p>
+</section>
+</section>
+<section id="study-design-for-fig.-1d-e" class="level2">
+<h2 class="anchored" data-anchor-id="study-design-for-fig.-1d-e">Study design for Fig. 1d-e</h2>
+<div style="text-align: center;">
+<p><img src="images/exp.workflow.fig1d-e.jpg" width="100%"></p>
+<p>
+<em>Schematic 2: Experimental workflow summarizing the in vivo design for Fig. 1d-e.</em>
+</p>
+</div>
+<section id="fig.-1d-e" class="level3">
+<h3 class="anchored" data-anchor-id="fig.-1d-e">Fig. 1d-e:</h3>
+<p><strong>Study Design:</strong> The authors utilized a factorial, independent-samples experimental in vivo study design to investigate the correlation between oHSV treatment and MHCII expression on tumor cells using flow cytometry.</p>
+<p><strong>Syngeneic murine model:</strong> GSC005, a syngeneic murine GBM model in C57BL/6 (B6) mice.</p>
+<p><strong>Time point:</strong> days 2, 14, 30, and 41 (the paper’s figure legend refers to day 4.5 rather than day 2; here I follow the main-text wording for consistency with the narrative)</p>
+<p><strong>N:</strong> day 2 [M002 (n=5); saline (n=5)]; day 14 [M002 (n=6); saline (n=6)]; day 30 [M002 (n=5); saline (n=5)] and day 41 [M002 (n=6), saline (n=6)]</p>
+<p><em>Note:</em> The paper contains a discrepancy between day 2 in the main text and day 4.5 in the figure legend. In this journal review, I follow the main-text day 2 wording for consistency, while acknowledging the discrepancy.</p>
+<p><strong>Method:</strong> Flow cytometry</p>
+</section>
+</section>
+<section id="methods-explained" class="level2">
+<h2 class="anchored" data-anchor-id="methods-explained">Methods explained</h2>
+<section id="single-cell-rna-seq" class="level3">
+<h3 class="anchored" data-anchor-id="single-cell-rna-seq">Single-Cell RNA-seq</h3>
+<p>In summary, single cell RNA-seq (scRNA-seq) was used in this paper (Fig 1a, 1b &amp; 1c) to analyze the cellular makeup of the tumor microenvironment and to characterize treatment-associated changes that might modulate immune responses to oHSV.</p>
+</section>
+<section id="flow-cytometry" class="level3">
+<h3 class="anchored" data-anchor-id="flow-cytometry">Flow cytometry</h3>
+<p>Additionally, flow cytometry was used to measure the frequency of MHCII-positive tumor cells and the fluorescence intensity of MHCII expression in those cells.</p>
+</section>
+</section>
+<section id="key-results" class="level2">
+<h2 class="anchored" data-anchor-id="key-results">Key results</h2>
+<p><em>Key definitions the authors used:</em></p>
+<ol type="1">
+<li><p><strong>T cells:</strong> Cells with cd3e and cd3g &gt; 1</p></li>
+<li><p><strong>Myeloid cells:</strong> All myeloid cells except dendritic cells (DCs)</p></li>
+<li><p><strong>Non-T CD45+ cells:</strong> CD45⁺ cells except T, myeloid and microglia</p></li>
+<li><p><strong>Other CD45- cells:</strong> CD45⁻ cells except tumor cells</p></li>
+</ol>
+<p>Part I: Key findings from these assays include:</p>
+<ul>
+<li>oHSV treatment restructured the immune phenotype of the GBM microenvironment by increasing T cells and decreasing tumor cells and microglia. It also significantly upregulated MHCII expression on residual tumor cells in oHSV-treated mice.</li>
+</ul>
+</section>
+<section id="results-explained" class="level2">
+<h2 class="anchored" data-anchor-id="results-explained">Results Explained</h2>
+<p>Based on Fig. 1a-e:</p>
+<ol type="1">
+<li>Overall, oHSV treatment restructured the immune phenotype of the GBM microenvironment by decreasing tumor cells and microglia and increasing T cells. Furthermore, it increased the expression of MHCII on residual tumor cells.</li>
+</ol>
+<p><strong>Fig. 1a-b interpretation:</strong> The authors analyzed 15,241 cells following scRNA-sequencing:</p>
+<p>In Fig. 1a, UMAP dimensionality reduction was used to cluster the cells based on cell markers. The UMAP analysis showed distinct cell populations including tumor cells, T cells, non-T CD45⁺ cells, other CD45⁻ cells, myeloid cells and microglia present in the TME of both M002- and saline-treated mice.</p>
+<p>In Fig. 1b, compared to saline-treated mice, the relative proportion of T cells and non-T CD45⁺ cells increased, while the relative proportion of tumor cells and microglia decreased in M002-treated mice, demonstrating an altered immune profile following oHSV treatment. Together, these changes are consistent with a restructuring of the TME from a colder to a more inflamed state, marked by increased T-cell infiltration and evidence of tumor-cell killing following oHSV treatment.</p>
+<p><strong>Fig. 1c interpretation:</strong> The authors then examined MHCII-related gene expression across the 15,241-cell dataset in greater detail.</p>
+<p>In Fig. 1c, overall, visual inspection suggests that M002 increased the expression of MHCII-related genes across several intratumoral cell populations. Specifically, we observe an M002-dependent increase in classical MHCII genes: H2-Ab1; H2-Aa, H2-Eb1 and in the non-classical MHCII gene: H2-DMb1 in non-T CD45⁺ cells. In microglial cells, we observe an M002-dependent increase in the expression of non-classical MHCII genes: H2-DMa; H2-DMb1 &amp; H2-Oa. While in myeloid cells, we observe an M002-driven increase in classical MHCII genes: H2-Ab1, H2-Aa &amp; H2-Ea. Notably, in tumor cells, an increase in M002-treated mice compared with controls is seen in the classical MHCII gene H2-Ab1.</p>
+<p><strong>Fig 1d-e interpretation:</strong></p>
+<p><em>Note:</em> This interpretation is based on the two-way ANOVA performed here for teaching purposes, not on the unpaired Student’s t test reported by the authors in the paper.</p>
+<p><em>Frequency vs time:</em> Two-way ANOVA revealed no significant main effect of treatment on frequency of expression of MHCII, F(1,36) = 3.27, p = 0.0788, no significant main effect of day on expression of MHCII, F(3,36) = 1.10, p = 0.3636, and no significant treatment-by-day interaction, F(3,36) = 1.66, p = 0.1923.</p>
+<p><em>MFI vs time:</em> Two-way ANOVA on log-transformed MFI revealed a significant main effect of treatment, F(1,36) = 6.35, p = 0.0163, and a significant main effect of day, F(3,36) = 10.44, p = 4.38 × 10^-5, with no significant treatment × day interaction, F(3,36) = 0.824, p = 0.489. Residuals did not significantly deviate from normality after transformation (Shapiro–Wilk W = 0.964, p = 0.186), and Levene’s test showed no significant heterogeneity of variance (F(7,36) = 2.13, p = 0.065).</p>
+<p>Although frequency showed no significant main effects or interaction, the log-transformed MFI showed significant main effects of treatment and day, indicating that the detectable signal was stronger for expression intensity than for the proportion of positive cells. This is likely reflective of a larger biological effect on per-cell expression.</p>
+</section>
+<section id="statistics-explained-fig.-1e-only" class="level2">
+<h2 class="anchored" data-anchor-id="statistics-explained-fig.-1e-only">Statistics explained (Fig. 1e Only)</h2>
+<p>The authors used the unpaired Student’s t test. The main assumptions of an unpaired Student’s t test include:</p>
+<ol type="1">
+<li><p>Independence of observations: In this study, that means each mouse should appear in only one group, treatment or control. Furthermore, and each mouse should be sampled once with no repeated measurements from the same mouse.</p></li>
+<li><p>Continuous outcomes For this study, the Fig. 1e outcomes are continuous rather than discrete or categorical.</p></li>
+<li><p>Approximately normal distribution within each group</p></li>
+<li><p>Equal variances between groups</p></li>
+<li><p>No extreme outliers</p></li>
+</ol>
+<p>Although this study compares two independent groups, it also includes two factors: treatment (M002 vs Saline) and time after treatment (in days). A biologically important question is whether the treatment effect changes over time. For that reason, although the authors used an unpaired Student’s t test, an alternative teaching approach is to fit a two-way ANOVA, I present below.</p>
+<p><strong>NOTE:</strong></p>
+<ol type="i">
+<li><p>This analysis uses the published mouse-level data as a teaching example for statistical comparison. The analysis shown here is not the authors’ original inferential workflow.</p></li>
+<li><p>This section includes the R code used for exploratory data analysis, ANOVA, post hoc analysis where applicable, and visualization with jittered dot plots.</p></li>
+</ol>
+<p><strong><em>Here I used readxl to read in the data (Note: original data obtained directly from this paper was used).</em></strong></p>
+<details>
+<summary>
+Click here to view code for reading in excel spreadsheet
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Read in the data using readxl</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>grimes_fig1e <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="st">"./data/grimes_fig1e.xlsx"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong><em>Here I subset the data to separate the frequency data from the mfi data</em></strong></p>
+<details>
+<summary>
+Click here to view code for subsetting data
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Subset the data to create two data sets for frequency and mfi</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>grimes1e.freq <span class="ot">&lt;-</span> <span class="fu">subset</span>(grimes_fig1e, (outcome <span class="sc">==</span> <span class="st">"Frequency"</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi <span class="ot">&lt;-</span> <span class="fu">subset</span>(grimes_fig1e, (outcome <span class="sc">==</span> <span class="st">"MFI"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<section id="analyzing-frequency-data-with-two-way-anova" class="level3">
+<h3 class="anchored" data-anchor-id="analyzing-frequency-data-with-two-way-anova">Analyzing frequency data with two-way ANOVA</h3>
+<p><strong><em>I first fit the two-way ANOVA model to the frequency data</em></strong></p>
+<details>
+<summary>
+Click here to view frequency ANOVA code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Two-way ANOVA to assess main and interaction effects </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>grimes1e.freq<span class="sc">$</span>day <span class="ot">&lt;-</span> <span class="fu">factor</span>(grimes1e.freq<span class="sc">$</span>day, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Day2"</span>, <span class="st">"Day14"</span>, <span class="st">"Day30"</span>, <span class="st">"Day41"</span>))</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>grimes1e.freq<span class="sc">$</span>treatment <span class="ot">&lt;-</span> <span class="fu">factor</span>(grimes1e.freq<span class="sc">$</span>treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Saline"</span>, <span class="st">"M002"</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>grimes1e.freq.model <span class="ot">&lt;-</span> <span class="fu">aov</span>(value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.freq)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result interpretation:</strong> The two-way ANOVA result showed no significant main effect of treatment and no evidence of a time-by-treatment interaction in this teaching analysis</p>
+<details>
+<summary>
+Click to view raw frequency ANOVA output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(grimes1e.freq.model)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>              Df Sum Sq Mean Sq F value Pr(&gt;F)  
+treatment      1    545   544.9   3.273 0.0788 .
+day            3    547   182.4   1.095 0.3636  
+treatment:day  3    830   276.8   1.662 0.1923  
+Residuals     36   5994   166.5                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</details>
+<p>Next, I checked whether the assumptions of the two-way ANOVA were reasonably met:</p>
+</section>
+<section id="normality-of-residuals" class="level3">
+<h3 class="anchored" data-anchor-id="normality-of-residuals">Normality of Residuals:</h3>
+<p>I started by examining whether the residuals were approximately normally distributed?</p>
+<p><strong><em>Next, I checked the normality assumption</em></strong></p>
+<details>
+<summary>
+Click here to view frequency Shapiro Wilk test code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Shapiro Wilk test for normality </span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>sw.f1e.freq<span class="ot">&lt;-</span> <span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(grimes1e.freq.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> The Shapiro-Wilk test gave p = 0.0915 which is greater than 0.05. Therefore, there is no significant evidence that the residuals deviate from normality. Additionally, the W statistic (0.956) is close to 1, consistent with approximate normality.</p>
+<details>
+<summary>
+Click to view frequency Shapiro Wilk normality output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sw.f1e.freq</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(grimes1e.freq.model)
+W = 0.95592, p-value = 0.09152</code></pre>
+</div>
+</div>
+</details>
+</section>
+<section id="q-q-plot" class="level3">
+<h3 class="anchored" data-anchor-id="q-q-plot">Q-Q Plot</h3>
+<details>
+<summary>
+Click here to view frequency Q-Q plot code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Q-Q plots for visual inspection of normality</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qqnorm</span>(<span class="fu">residuals</span>(grimes1e.freq.model))</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">qqline</span>(<span class="fu">residuals</span>(grimes1e.freq.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2026-03-26-glioma-paper-grimes-etal_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details>
+<p><strong>Result Interpretation</strong> The Q-Q plot provides a visual check of the residual distribution. From the Q-Q plot above, we observe that most point line close to the reference line, with a few deviations. On the right-hand side of the plot, we observe an upper right-hand tail and on the left-hand side of the plot, a little left-hand tail. Based on both the Q-Q plot and the Shapiro-Wilk test for normality suggests that the residuals are approximately normal and that the normality assumption is acceptable.</p>
+</section>
+<section id="homoscedasticity" class="level3">
+<h3 class="anchored" data-anchor-id="homoscedasticity">Homoscedasticity</h3>
+<p><strong><em>Then, I checked the equal variance assumption</em></strong></p>
+<details>
+<summary>
+Click here to view frequency Levene test code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Levene test for variance</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| message: false</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: carData</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'car'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:dplyr':
+
+    recode</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:purrr':
+
+    some</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>lev.f1e.freq <span class="ot">&lt;-</span> <span class="fu">leveneTest</span>(value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.freq)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> Levene’s test assesses whether the variances are similar across groups. Here, p = 0.227 and F = 1.4221, so there is no significant evidence of unequal variances.</p>
+<details>
+<summary>
+Click to view frequency Levene test for variance output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>lev.f1e.freq</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Levene's Test for Homogeneity of Variance (center = median)
+      Df F value Pr(&gt;F)
+group  7  1.4224 0.2267
+      36               </code></pre>
+</div>
+</div>
+</details>
+<p><strong>Overall interpretation:</strong> For MHCII frequency, the two-way ANOVA showed no significant main effect of treatment, F(1,36) = 3.27, p = 0.0788, no significant main effect of day, F(3,36) = 1.10, p = 0.3636, and no significant treatment-by-day interaction, F(3,36) = 1.66, p = 0.1923.</p>
+</section>
+<section id="visualizing-mhcii-frequency-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="visualizing-mhcii-frequency-over-time">Visualizing MHCII Frequency over time</h3>
+<p><strong><em>Next, I visualized the data</em></strong></p>
+<details>
+<summary>
+Click here to view code for frequency vs time jittered dot plot
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>mhcii.freq.plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(grimes1e.freq,</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(day), <span class="at">y =</span> value, <span class="at">color =</span> treatment)) <span class="sc">+</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">fill =</span> treatment),</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_jitterdodge</span>(<span class="at">jitter.width =</span> <span class="fl">0.08</span>, <span class="at">dodge.width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">21</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span>,</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">stroke =</span> <span class="dv">1</span>,</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.9</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">fun =</span> median,</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">geom =</span> <span class="st">"point"</span>,</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">95</span>,</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">8</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">fun.data =</span> median_hilow,</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">fun.args =</span> <span class="fu">list</span>(<span class="at">conf.int =</span> <span class="fl">0.5</span>),</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">geom =</span> <span class="st">"linerange"</span>,</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">linewidth =</span> <span class="fl">0.8</span></span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Saline"</span> <span class="ot">=</span> <span class="st">"#00cc99"</span>, <span class="st">"M002"</span> <span class="ot">=</span> <span class="st">"#024A86"</span>)) <span class="sc">+</span></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Saline"</span> <span class="ot">=</span> <span class="st">"white"</span>, <span class="st">"M002"</span> <span class="ot">=</span> <span class="st">"white"</span>)) <span class="sc">+</span></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">75</span>), <span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"days Post-Treatment"</span>,</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"%MHCII+CD45-GFP+"</span>,</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Treatment"</span>,</span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Treatment"</span></span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">14</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>mhcii.freq.plot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2026-03-26-glioma-paper-grimes-etal_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Attribution:</strong> Replotted from data reported in Grimes et al., Nature Communications (2025). Plot style and statistical analysis in this tutorial differ from the original publication.</p>
+<p><strong>MHCII Freq Interpretation:</strong> For the frequency of MHCII-positive CD45⁻GFP⁺ cells, the two-way ANOVA showed no statistically significant main effect of treatment, F(1,36)=3.27, p=0.0788, no significant main effect of day, F(3,36)=1.10, p=0.3636, and no significant treatment-by-day interaction, F(3,36)=1.66, p=0.1923. Model assumptions were reasonably met (Shapiro–Wilk W=0.956, p=0.0915; Levene’s test F(7,36)=1.42, p=0.2267).</p>
+</section>
+<section id="analyzing-mfi-data-with-two-way-anova" class="level3">
+<h3 class="anchored" data-anchor-id="analyzing-mfi-data-with-two-way-anova">Analyzing MFI data with two-way ANOVA</h3>
+<p><strong><em>Here, I first fit the two-way ANOVA model to the mean fluorescence intensity (mfi) data</em></strong></p>
+<details>
+<summary>
+Click here to view mfi ANOVA code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Two-way ANOVA to assess main and interaction effects </span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi<span class="sc">$</span>day <span class="ot">&lt;-</span> <span class="fu">factor</span>(grimes1e.mfi<span class="sc">$</span>day, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Day2"</span>, <span class="st">"Day14"</span>, <span class="st">"Day30"</span>, <span class="st">"Day41"</span>))</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi<span class="sc">$</span>treatment <span class="ot">&lt;-</span> <span class="fu">factor</span>(grimes1e.mfi<span class="sc">$</span>treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Saline"</span>, <span class="st">"M002"</span>))</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi.model <span class="ot">&lt;-</span> <span class="fu">aov</span>(value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.mfi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result interpretation:</strong> The initial two-way ANOVA for raw MFI suggested a significant main effect of treatment, with no evidence of a time-by-treatment interaction in this teaching analysis</p>
+<details>
+<summary>
+Click to view raw mfi ANOVA output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(grimes1e.mfi.model)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>              Df  Sum Sq Mean Sq F value  Pr(&gt;F)    
+treatment      1 1090530 1090530   5.493 0.02473 *  
+day            3 4591097 1530366   7.709 0.00042 ***
+treatment:day  3  170618   56873   0.286 0.83483    
+Residuals     36 7146696  198519                    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</details>
+</section>
+<section id="normality-of-residuals-1" class="level3">
+<h3 class="anchored" data-anchor-id="normality-of-residuals-1">Normality of Residuals:</h3>
+<p><strong><em>Next, I checked the normality assumption</em></strong></p>
+<details>
+<summary>
+Click here to view mfi Shapiro Wilk test code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>sw.f1e.mfi <span class="ot">&lt;-</span> <span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(grimes1e.mfi.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> The Shapiro-Wilk test gave p = 0.000959, which is less than 0.05, so we reject the null hypothesis of normality. This indicates that the raw MFI residuals are not normally distributed.</p>
+<details>
+<summary>
+Click here to view mfi Shapiro Wilk normality output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>sw.f1e.mfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(grimes1e.mfi.model)
+W = 0.8982, p-value = 0.0009588</code></pre>
+</div>
+</div>
+</details>
+</section>
+<section id="q-q-plot-1" class="level3">
+<h3 class="anchored" data-anchor-id="q-q-plot-1">Q-Q Plot</h3>
+<details>
+<summary>
+Click here to view mfi Q-Q plot code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qqnorm</span>(<span class="fu">residuals</span>(grimes1e.mfi.model))</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qqline</span>(<span class="fu">residuals</span>(grimes1e.mfi.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2026-03-26-glioma-paper-grimes-etal_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details>
+<p><strong>Result interpretation:</strong> The Q–Q plot shows a clear outlier in the right tail and noticeable deviations from the reference line, which is consistent with the Shapiro–Wilk result indicating non-normal residuals.</p>
+</section>
+<section id="homoscedasticity-1" class="level3">
+<h3 class="anchored" data-anchor-id="homoscedasticity-1">Homoscedasticity</h3>
+<p><strong><em>Then, I checked the equal variance assumption</em></strong></p>
+<details>
+<summary>
+Click here to view mfi Levene test for variance code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>lev.f1e.mfi <span class="ot">&lt;-</span> <span class="fu">leveneTest</span>(value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.mfi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> Levene’s test was not statistically significant, F(7,36) = 2.20, p = 0.057, thus there is no significant evidence of unequal variances across the groups.</p>
+<details>
+<summary>
+Click here to view mfi Levene test output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>lev.f1e.mfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Levene's Test for Homogeneity of Variance (center = median)
+      Df F value  Pr(&gt;F)  
+group  7  2.2035 0.05707 .
+      36                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</details>
+<p>Since the normality assumption was violated, we can transform the data to see if the transformed data will be reasonably normally distributed. Thus, we first try a log transformation.</p>
+</section>
+<section id="log-transformation-of-mfi-model" class="level3">
+<h3 class="anchored" data-anchor-id="log-transformation-of-mfi-model">Log-transformation of MFI model</h3>
+<p><strong><em>Because the raw MFI residuals were non-normal, I applied a log transformation to the raw data</em></strong></p>
+<details>
+<summary>
+Click here to view the mfi log-transformation code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Log transformation of mfi variable</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi<span class="sc">$</span>log_value <span class="ot">&lt;-</span> <span class="fu">log</span>(grimes1e.mfi<span class="sc">$</span>value)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+</section>
+<section id="two-way-anova-of-log-transformed-mfi-variable" class="level3">
+<h3 class="anchored" data-anchor-id="two-way-anova-of-log-transformed-mfi-variable">Two-way ANOVA of Log-transformed MFI variable</h3>
+<p><strong><em>Then, I refit the two-way ANOVA model to the log of mean fluorescence intensity (mfi)</em></strong></p>
+<details>
+<summary>
+Click here to view log-transformed mfi ANOVA code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>grimes1e.mfi.log.model <span class="ot">&lt;-</span> <span class="fu">aov</span>(log_value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.mfi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><strong>Result interpretation:</strong> The two-way ANOVA result, of the log-transformed mfi data, below showed a significant main effect of treatment, with no evidence of a time-by-treatment interaction in this teaching analysis.</p>
+<details>
+<summary>
+Click here to view log-transformed mfi ANOVA output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(grimes1e.mfi.log.model)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>              Df Sum Sq Mean Sq F value   Pr(&gt;F)    
+treatment      1 0.3356  0.3356   6.352   0.0163 *  
+day            3 1.6550  0.5517  10.442 4.38e-05 ***
+treatment:day  3 0.1306  0.0435   0.824   0.4894    
+Residuals     36 1.9020  0.0528                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</details>
+</details></section>
+<section id="normality-of-residuals-2" class="level3">
+<h3 class="anchored" data-anchor-id="normality-of-residuals-2">Normality of Residuals:</h3>
+<p><strong><em>Next, I checked the normality assumption of the residuals of the log-transformed data</em></strong></p>
+<details>
+<summary>
+Click here to view log-transformed mfi Shapiro Wilk test code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>sw.f1e.logmfi <span class="ot">&lt;-</span> <span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(grimes1e.mfi.log.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> The Shapiro–Wilk test for the log-transformed model gave p = 0.1863, which is greater than 0.05. Therefore, there is no significant evidence that the residuals deviate from normality after log transformation.</p>
+<details>
+<summary>
+Click here to view log-transformed mfi Shapiro Wilk normality output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>sw.f1e.logmfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(grimes1e.mfi.log.model)
+W = 0.96419, p-value = 0.1863</code></pre>
+</div>
+</div>
+</details>
+</section>
+<section id="q-q-plots" class="level3">
+<h3 class="anchored" data-anchor-id="q-q-plots">Q-Q Plots</h3>
+<details>
+<summary>
+Click here to view the log-transformed mfi Q-Q plot code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qqnorm</span>(<span class="fu">residuals</span>(grimes1e.mfi.log.model))</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qqline</span>(<span class="fu">residuals</span>(grimes1e.mfi.log.model))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2026-03-26-glioma-paper-grimes-etal_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> Levene’s test for the log-transformed model gave p = 0.065 and F = 2.131, so there is no significant evidence of unequal variances across groups.</p>
+</section>
+<section id="homoscedasticity-2" class="level3">
+<h3 class="anchored" data-anchor-id="homoscedasticity-2">Homoscedasticity</h3>
+<p><strong><em>Then, I checked the equal variance assumption of the log-transformed data</em></strong></p>
+<details>
+<summary>
+Click here to view log-transformed mfi Levene test code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>lev.f1e.logmfi <span class="ot">&lt;-</span> <span class="fu">leveneTest</span>(log_value <span class="sc">~</span> treatment <span class="sc">*</span> day, <span class="at">data =</span> grimes1e.mfi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> The p = 0.065 &gt; 0.05 and F statistic is 2.131, thus we do not reject homogeneity of variance. There is therefore no significant evidence of unequal variances across the groups.</p>
+<details>
+<summary>
+Click here to view the log-transformed mfi Levene test for variance output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>lev.f1e.logmfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Levene's Test for Homogeneity of Variance (center = median)
+      Df F value  Pr(&gt;F)  
+group  7  2.1314 0.06497 .
+      36                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</details>
+</section>
+</section>
+<section id="post-hoc-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="post-hoc-analysis">Post-hoc analysis</h2>
+<p>Because the model assumptions were reasonably satisfied after log transformation, I then used post hoc comparisons to interpret the significant main effects.</p>
+<section id="post-hoc-analysis-for-day" class="level3">
+<h3 class="anchored" data-anchor-id="post-hoc-analysis-for-day">Post-hoc analysis for day</h3>
+<p><strong><em>I then used post hoc comparisons to interpret the significant main effects</em></strong></p>
+<details>
+<summary>
+Click here to view post hoc analysis for day code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(emmeans)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>ph.day.f1e.logmfi <span class="ot">&lt;-</span> <span class="fu">emmeans</span>(grimes1e.mfi.log.model, pairwise <span class="sc">~</span> day, <span class="at">adjust =</span> <span class="st">"tukey"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><strong>Result Interpretation:</strong> Tukey-adjusted post hoc comparisons showed that log(MFI) was significantly higher on day 30 and day 41 than at day 14, and significantly higher on day 30 and day 41 than at day 2. No significant differences were detected between day 2 and day 14 or between day 30 and day 41.</p>
+<details>
+<summary>
+Click here to view post hoc analysis for day output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>ph.day.f1e.logmfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$emmeans
+ day   emmean     SE df lower.CL upper.CL
+ Day2    7.25 0.0727 36     7.11     7.40
+ Day14   7.13 0.0664 36     6.99     7.26
+ Day30   7.53 0.0727 36     7.39     7.68
+ Day41   7.58 0.0664 36     7.45     7.72
+
+Results are averaged over the levels of: treatment 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast      estimate     SE df t.ratio p.value
+ Day2 - Day14    0.1271 0.0984 36   1.291  0.5744
+ Day2 - Day30   -0.2801 0.1030 36  -2.725  0.0465
+ Day2 - Day41   -0.3286 0.0984 36  -3.339  0.0101
+ Day14 - Day30  -0.4072 0.0984 36  -4.137  0.0011
+ Day14 - Day41  -0.4557 0.0938 36  -4.856  0.0001
+ Day30 - Day41  -0.0485 0.0984 36  -0.493  0.9603
+
+Results are averaged over the levels of: treatment 
+P value adjustment: tukey method for comparing a family of 4 estimates </code></pre>
+</div>
+</div>
+</details>
+</details></section>
+<section id="treatment-marginal-means" class="level3">
+<h3 class="anchored" data-anchor-id="treatment-marginal-means">Treatment marginal means</h3>
+<details>
+<summary>
+Click here to view post hoc analysis for treatment code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>ph.treatment.f1e.logmfi <span class="ot">&lt;-</span> <span class="fu">emmeans</span>(grimes1e.mfi.log.model, pairwise <span class="sc">~</span> treatment)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>NOTE: Results may be misleading due to involvement in interactions</code></pre>
+</div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> Estimated marginal means showed that log(MFI) was significantly higher in M002 than in Saline when averaged across days (difference = 0.165, p = 0.0229).</p>
+<details>
+<summary>
+Click here to view post hoc analysis for treatment output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>ph.treatment.f1e.logmfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$emmeans
+ treatment emmean     SE df lower.CL upper.CL
+ Saline      7.29 0.0492 36     7.19     7.39
+ M002        7.46 0.0492 36     7.36     7.56
+
+Results are averaged over the levels of: day 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast      estimate     SE df t.ratio p.value
+ Saline - M002   -0.165 0.0696 36  -2.377  0.0229
+
+Results are averaged over the levels of: day </code></pre>
+</div>
+</div>
+</details>
+</section>
+<section id="treatment-comparisons-within-each-day" class="level3">
+<h3 class="anchored" data-anchor-id="treatment-comparisons-within-each-day">Treatment comparisons within each day</h3>
+<details>
+<summary>
+Click here to view post hoc within day code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>ph.wday.f1e.logmfi <span class="ot">&lt;-</span> <span class="fu">emmeans</span>(grimes1e.mfi.log.model, pairwise <span class="sc">~</span> treatment <span class="sc">|</span> day, <span class="at">adjust =</span> <span class="st">"holm"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<p><strong>Result Interpretation:</strong> Exploratory within-day comparisons suggested a significant M002 vs Saline difference at day 14, although the overall treatment-by-day interaction was not significant.</p>
+<details>
+<summary>
+Click here to view post hoc within day output
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>ph.wday.f1e.logmfi</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$emmeans
+day = Day2:
+ treatment emmean     SE df lower.CL upper.CL
+ Saline      7.22 0.1030 36     7.01     7.43
+ M002        7.29 0.1030 36     7.08     7.50
+
+day = Day14:
+ treatment emmean     SE df lower.CL upper.CL
+ Saline      6.97 0.0938 36     6.77     7.16
+ M002        7.29 0.0938 36     7.10     7.48
+
+day = Day30:
+ treatment emmean     SE df lower.CL upper.CL
+ Saline      7.50 0.1030 36     7.30     7.71
+ M002        7.56 0.1030 36     7.35     7.77
+
+day = Day41:
+ treatment emmean     SE df lower.CL upper.CL
+ Saline      7.48 0.0938 36     7.28     7.67
+ M002        7.69 0.0938 36     7.50     7.88
+
+Confidence level used: 0.95 
+
+$contrasts
+day = Day2:
+ contrast      estimate    SE df t.ratio p.value
+ Saline - M002  -0.0689 0.145 36  -0.474  0.6385
+
+day = Day14:
+ contrast      estimate    SE df t.ratio p.value
+ Saline - M002  -0.3213 0.133 36  -2.421  0.0206
+
+day = Day30:
+ contrast      estimate    SE df t.ratio p.value
+ Saline - M002  -0.0586 0.145 36  -0.403  0.6892
+
+day = Day41:
+ contrast      estimate    SE df t.ratio p.value
+ Saline - M002  -0.2128 0.133 36  -1.604  0.1175</code></pre>
+</div>
+</div>
+
+<p><strong>Overall Interpretation of ANOVA model:</strong> Residuals from the raw MFI model deviated from normality, MFI values were log-transformed prior to analysis. Two-way ANOVA on log-transformed MFI revealed a significant main effect of treatment, F(1,36) = 6.35, p = 0.0163, and a significant main effect of day, F(3,36) = 10.44, p = 4.38 × 10^-5, with no significant treatment × day interaction, F(3,36) = 0.824, p = 0.489. Residuals did not significantly deviate from normality after transformation (Shapiro–Wilk W = 0.964, p = 0.186), and Levene’s test showed no significant heterogeneity of variance (F(7,36) = 2.13, p = 0.065).</p>
+</details></section>
+<section id="visualizing-mhcii-mfi-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="visualizing-mhcii-mfi-over-time">Visualizing MHCII MFI over time</h3>
+<p><strong><em>Next, I visualized the data</em></strong></p>
+<details>
+<summary>
+Click here to view code for mfi vs time jittered dot plot code
+</summary>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>mhcii.mfi.plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(grimes1e.mfi,</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(day), <span class="at">y =</span> value, <span class="at">color =</span> treatment)) <span class="sc">+</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">fill =</span> treatment),</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_jitterdodge</span>(<span class="at">jitter.width =</span> <span class="fl">0.08</span>, <span class="at">dodge.width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">21</span>,</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span>,</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">stroke =</span> <span class="dv">1</span>,</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.9</span></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">fun =</span> median,</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">geom =</span> <span class="st">"point"</span>,</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">95</span>,</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">8</span></span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">fun.data =</span> median_hilow,</span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">fun.args =</span> <span class="fu">list</span>(<span class="at">conf.int =</span> <span class="fl">0.5</span>),</span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">geom =</span> <span class="st">"linerange"</span>,</span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.45</span>),</span>
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">linewidth =</span> <span class="fl">0.8</span></span>
+<span id="cb51-24"><a href="#cb51-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb51-25"><a href="#cb51-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Saline"</span> <span class="ot">=</span> <span class="st">"#00cc99"</span>, <span class="st">"M002"</span> <span class="ot">=</span> <span class="st">"#024A86"</span>)) <span class="sc">+</span></span>
+<span id="cb51-26"><a href="#cb51-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Saline"</span> <span class="ot">=</span> <span class="st">"white"</span>, <span class="st">"M002"</span> <span class="ot">=</span> <span class="st">"white"</span>)) <span class="sc">+</span></span>
+<span id="cb51-27"><a href="#cb51-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">4000</span>), <span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb51-28"><a href="#cb51-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb51-29"><a href="#cb51-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"days Post-Treatment"</span>,</span>
+<span id="cb51-30"><a href="#cb51-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"MHCII MFI"</span>,</span>
+<span id="cb51-31"><a href="#cb51-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Treatment"</span>,</span>
+<span id="cb51-32"><a href="#cb51-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Treatment"</span></span>
+<span id="cb51-33"><a href="#cb51-33" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb51-34"><a href="#cb51-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">14</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</details>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>mhcii.mfi.plot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2026-03-26-glioma-paper-grimes-etal_files/figure-html/unnamed-chunk-34-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Attribution:</strong> Replotted from data reported in Grimes et al., Nature Communications (2025). Plot style and statistical analysis in this tutorial differ from the original publication.</p>
+<p><strong>MHCII MFI Interpretation:</strong> For MHCII MFI in CD45⁻GFP⁺ cells, the raw-data model showed non-normal residuals, so MFI values were log-transformed before analysis. The two-way ANOVA of log-transformed MFI revealed a significant main effect of treatment F(1,36)=6.35, p=0.0163, and a significant main effect of day F(3,36)=10.44, p=4.38×10⁻⁵, with no significant treatment-by-day interaction, F(3,36)=0.824, p=0.4894. After transformation, the model assumptions were reasonably satisfied (Shapiro–Wilk W=0.964, p=0.186; Levene’s test F(7,36)=2.13, p=0.065). Tukey-adjusted post hoc comparisons indicated that MFI was higher at days 30 and 41 than at days 2 and 14, and estimated marginal means averaged across days showed that MFI was significantly higher in M002 than in Saline (p=0.0229). Here, MHCII refers to Major Histocompatibility Complex class II, and MFI refers to mean fluorescence intensity.</p>
+</section>
+</section>
+<section id="strengths" class="level2">
+<h2 class="anchored" data-anchor-id="strengths">Strengths</h2>
+<p>Focusing on only result 1, some strengths include:</p>
+<ol type="1">
+<li>The study design.</li>
+</ol>
+<p>and</p>
+<ol start="2" type="1">
+<li>Biological relevance (From transcription to translation): First, the authors addressed the question of how M002 treatment alters the tumor microenvironment. They used scRNA-seq to cluster the cells and evaluate any changes to cell-type proportions. After identifying the key alterations, decreased tumor cells, suggestive of virus-mediated tumor killing, and increased T cells, they then profiled the residual tumor cells and found that MHCII pathway genes were upregulated within the tumor microenvironment, with particular interest is the increased expression observed in tumor cells.</li>
+</ol>
+<p>Because Fig. 1a-c focus on the transcriptional level, the authors next interrogated these MHCII alterations at the protein level using flow cytometry to assess the frequency and magnitude of MHCII expression at different time points in M002-treated and saline-treated mice.</p>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p><strong>Fig1a-e:</strong></p>
+<ol type="1">
+<li><p>Pooled tumor samples eliminate mouse-to-mouse variability from the data</p></li>
+<li><p>1:1 ratio of CD45+:CD45- cells: Mixing CD45+ and CD45- cells at a 1:1 ratio before sequencing does not preserve the true in vivo proportionality of these cell compartments.</p></li>
+<li><p>The late collection time point (day 45), together with the fact that it is the only scRNA-seq time point, does not provide insight into when TME reprogramming is first induced.</p></li>
+<li><p>These experiments were performed in murine models of glioblastoma, so any translation to human cases of GBM is inferential at best.</p></li>
+</ol>
+</section>
+<section id="in-summary" class="level2">
+<h2 class="anchored" data-anchor-id="in-summary">In summary…</h2>
+<p>This paper by Grimes et al.&nbsp;presents a promising therapeutic approach to managing glioblastoma multiforme using an oncolytic herpes simplex virus. An important immune evasion mechanism employed by tumor cells in glioma is to retain the tumor microenvironment in a cold state. A cold TME is one underlying reason for the poor prognosis of this disease. Grimes et al.&nbsp;investigated the association between treating GBM with an oHSV expressing murine IL12 (M002) and an altered TME in GSC005 murine models of GBM. Fig. 1a-e show that oHSV treatment:</p>
+<ol type="1">
+<li><p>Alters the TME by increasing T-cell infiltration consistent with a shift toward a more inflamed or ‘hotter’ tumor microenvironment.</p></li>
+<li><p>Decreases tumor-cell abundance, suggestive of active tumor killing.</p></li>
+<li><p>Shifts the distribution of MHCII-related genes by increasing their expression across non-T CD45+, microglial, myeloid and tumor cells.</p></li>
+<li><p>Increases the magnitude of MHCII expression on tumor cells</p></li>
+</ol>
+</section>
+<section id="questions-for-further-consideration" class="level2">
+<h2 class="anchored" data-anchor-id="questions-for-further-consideration">Questions for further consideration</h2>
+<p>Think about these questions, feel free to answer them. I will discuss them in future posts.</p>
+<ol type="1">
+<li><p>What is GSC005 and why is it a useful model for studying glioblastoma in mice?</p></li>
+<li><p>What markers define the following cell populations?</p></li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>T cells</p></li>
+<li><p>Non-T CD45+ cells</p></li>
+<li><p>Microglial cells</p></li>
+<li><p>Myeloid cells</p></li>
+<li><p>Tumor cells</p></li>
+<li><p>Other CD45- cells</p></li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><p>Why do you think the authors excluded T cells from the analysis in Fig 1c?</p></li>
+<li><p>The authors found that the magnitude of MHCII expression on tumor cells increased as a result of oHSV treatment. Why do you think this is important?</p></li>
+<li><p>What are the main differences between an unpaired Student’s t test and a two-way ANOVA?</p></li>
+</ol>
+</section>
+<section id="references-and-image-credits" class="level2">
+<h2 class="anchored" data-anchor-id="references-and-image-credits">References and image credits</h2>
+<p>This tutorial is inspired by:</p>
+<p>Grimes JM, Ghosh S, Manzoor S, Li LX, Moran MM, Clements JC, Alexander SD, Markert JM, Leavenworth JW. Oncolytic reprogramming of tumor microenvironment shapes CD4⁺ T-cell memory via the IL6ra-Bcl6 axis for targeted control of glioblastoma. Nature Communications. 2025;16:1095. Open access.</p>
+<p>All tutorial UMAPs, stacked bar plots, violin plots, and program-score plots shown here are simulated examples created for teaching purposes and are not reproduced from the original paper, except where explicitly noted.</p>
+<p>Where I use the paper’s reported real data (for example, replotting Fig. 1e-style measurements for teaching statistics), those plots are my own reanalysis/revisualization of data reported in Grimes et al.&nbsp;and not the original published figure design. Any alternative statistical tests shown in this tutorial are my own teaching analysis and may differ from the statistical methods reported in the original paper.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Chiomah Ezeomah · Made with <a href="https://quarto.org">Quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/chiomahezeomah/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ChiomahEzeomah">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@LearnwithChiomah">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:chiomah.ezeomah@gmail.com">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../license.html">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

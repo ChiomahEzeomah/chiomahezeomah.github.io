@@ -1,0 +1,28 @@
+---
+title: "R Programming"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I teach R programming for scientists, including data analysis, reproducible workflows, and recreating published figures from Creative Commons papers.
+:::
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- ggplot2 
+- data wrangling 
+- statistical coding 
+- reproducible research 
+- figure recreation 
+- scientific reporting
+
+:::
+:::
+
+## Recent Posts

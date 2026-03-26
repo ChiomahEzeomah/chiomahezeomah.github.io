@@ -1,0 +1,28 @@
+---
+title: "Vaccine Research"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I break down vaccine papers, immune response data, study designs, and the translational science behind vaccine development.
+:::
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- vaccine platforms 
+- humoral and cellular immunity 
+- adjuvants 
+- challenge studies 
+- preclinical models 
+- clinical trial interpretation
+:::
+:::
+
+## Recent Posts
+

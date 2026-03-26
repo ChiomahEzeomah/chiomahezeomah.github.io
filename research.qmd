@@ -1,0 +1,29 @@
+---
+title: "Research"
+---
+
+I have been involved in translational research projects at the Galveston National Laboratory, Cornell University, and the University of Oxford, where I trained and conducted research under the supervision and mentorship of leading scientists including [Professor Slobodan Paessler](https://www.utmb.edu/pathology/faculty/slobodan-paessler-dvm-phd), [Prof. David Walker](https://www.utmb.edu/pathology/faculty/david-h-walker-md), [Dr. Irma Cisneros](https://www.utmb.edu/pathology/faculty/irma-lisa-cisneros-phd), [Professor Myung-Hee Lee](https://gradschool.weill.cornell.edu/faculty/myung-hee-lee), [Professor Monika Safford](https://vivo.weill.cornell.edu/display/cwid-mms9024), and [Professor Teresa Lambe](https://www.ovg.ox.ac.uk/team/teresa-lambe). My work across these institutions has spanned virology, neuroimmune responses, vaccine research, and public health outcomes.
+
+## Viral Immunology and Pathogenesis
+
+### Lassa Fever
+- Sequelae of Lassa Fever: Post Viral Cerebellar Ataxia. OFID (2019). [Link](https://academic.oup.com/ofid/article/6/12/ofz512/5650934)
+
+- Case Control Study of the association between Lassa virus infection and hearing loss. In progress.
+
+### Neuroimmune Research
+- Fentanyl self-administration impacts brain immune responses in male Sprague-Dawley rats. Brain, Behavior and Immunity (2020). [Link](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333)
+
+- Cocaine self-administration influences central nervous system immune responses in male HIV-1 transgenic rats. Cells (2022).
+
+## Vaccine Research
+
+- Characterizing humoral and cellular immune responses to ChAdOx1 and mRNA New World mammarenavirus vaccine candidates in male and female BALB/c mice. University of Oxford dissertation (2024).
+
+## Clinical and Public Health Outcomes Research
+
+- Nocturnal dipping of heart rate and blood pressure in people with HIV in Tanzania. Journal of Clinical Hypertension (2021). [Link](https://pubmed.ncbi.nlm.nih.gov/34080288/)
+
+- Assessing Mortality Differences Across Acute Respiratory Failure Management Strategies in Covid-19. Journal of Critical Care (2022). [Link](https://pubmed.ncbi.nlm.nih.gov/35490502/)
+
+- Development and validation of mortality prediction models based on the social determinants of health. BMJ Journal (2024). [Link](https://jech.bmj.com/content/78/8/508)

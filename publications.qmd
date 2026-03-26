@@ -1,0 +1,127 @@
+---
+title: "Publications"
+---
+
+::: {.pub-list}
+
+::: {.pub-item}
+::: {.pub-main}
+## Sequelae of Lassa Fever: Post Viral Cerebellar Ataxia
+
+A study examining post-viral cerebellar ataxia as a sequela of Lassa fever and its implications for clinical recognition and long-term outcomes.
+
+::: {.pub-tags}
+[RESEARCH](https://academic.oup.com/ofid/article/6/12/ofz512/5650934){.pub-tag}
+[LASSA FEVER](https://academic.oup.com/ofid/article/6/12/ofz512/5650934){.pub-tag}
+[NEUROLOGY](https://academic.oup.com/ofid/article/6/12/ofz512/5650934){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2019
+:::
+
+::: {.pub-authors}
+Chiomah Ezeomah, Adeyi Adoga, Chikwe Ihekweazu, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, David Walker
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
+## Fentanyl Self-Administration Impacts Brain Immune Responses in Male Sprague-Dawley Rats
+
+A neuroimmunology study exploring how fentanyl exposure alters brain immune responses in a preclinical rat model.
+
+::: {.pub-tags}
+[RESEARCH](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333){.pub-tag}
+[NEUROIMMUNOLOGY](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333){.pub-tag}
+[FENTANYL](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2020
+:::
+
+::: {.pub-authors}
+Chiomah Ezeomah, Kathryn Cunningham, Sonja Stutz, Robert Fox, Natalya Bukreyeva, Kelly Dineley, Slobodan Paessler, Irma Cisneros
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
+## Nocturnal Dipping of Heart Rate and Blood Pressure in People with HIV in Tanzania
+
+A clinical outcomes study investigating nocturnal cardiovascular patterns in people living with HIV.
+
+::: {.pub-tags}
+[RESEARCH](https://pubmed.ncbi.nlm.nih.gov/34080288/){.pub-tag}
+[HIV](https://pubmed.ncbi.nlm.nih.gov/34080288/){.pub-tag}
+[CARDIOVASCULAR](https://pubmed.ncbi.nlm.nih.gov/34080288/){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2021
+:::
+
+::: {.pub-authors}
+Cody Nolan, Karl Reis, Salama Fadhil, Anthony Etyang, Chiomah Ezeomah, Justin R. Kingery, Bernard Desderius, Myung-Hee Lee, Saidi Kapiga, Robert N. Peck
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
+## Assessing Mortality Differences Across Acute Respiratory Failure Management Strategies in COVID-19
+
+A study evaluating mortality differences across respiratory failure management strategies during the COVID-19 pandemic.
+
+::: {.pub-tags}
+[RESEARCH](https://pubmed.ncbi.nlm.nih.gov/35490502/){.pub-tag}
+[COVID-19](https://pubmed.ncbi.nlm.nih.gov/35490502/){.pub-tag}
+[CRITICAL CARE](https://pubmed.ncbi.nlm.nih.gov/35490502/){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2022
+:::
+
+::: {.pub-authors}
+Jamuna Krishnan, Mangala Rajan, Benjamin Baer, Katherine Hoffman, Mark Alshak, Kerri Aronson, Parag Goyal, Chiomah Ezeomah, Shana Hill, Fernando Martinez, Meredith Turetz, Martin Wells, Edward Schenck, Monika Safford
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
+## Development and Validation of Mortality Prediction Models Based on the Social Determinants of Health
+
+A public health and predictive modeling study focused on mortality prediction using social determinants of health.
+
+::: {.pub-tags}
+[RESEARCH](https://jech.bmj.com/content/78/8/508){.pub-tag}
+[PREDICTION MODELING](https://jech.bmj.com/content/78/8/508){.pub-tag}
+[PUBLIC HEALTH](https://jech.bmj.com/content/78/8/508){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2024
+:::
+
+::: {.pub-authors}
+Khalid Fahoum, Joanna Bryan Ringel, Jana Hirsch, Andrew Rundle, Emily Levitan, Evgeniya Reshetnyak, Madeline Sterling, Chiomah Ezeomah, Parag Goyal, Monika Safford
+:::
+:::
+:::
+
+:::

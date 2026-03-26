@@ -1,0 +1,34 @@
+---
+title: "Journal Club with Chiomah"
+body-classes: center-title
+description: "Journal Club with Chiomah: A periodic paper breakdown covering the science, methods, statistical reasoning and more...."
+listing:
+  - id: recent-posts
+    contents: journal/*/*.qmd
+    sort: "date desc"
+    type: default
+    categories: true
+    fields: [title, date, categories, description]
+---
+::: {.journal-hero}
+Welcome to **Journal Club with Chiomah**, where I break down scientific papers, explain methods, discuss statistics, and teach the underlying science.
+:::
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+This space is organized into the following areas:
+
+-   [Immunology](journal/immunology/index.qmd)
+-   [Statistics](journal/statistics/index.qmd)
+-   [Virology-Genetics](journal/virology-genetics/index.qmd)
+-   [Vaccine Research](journal/vaccine-research/index.qmd)
+-   [Cancer Research](journal/cancer-research/index.qmd)
+-   [Infectious Diseases Research](journal/infectious-diseases/index.qmd)
+-   [R Programming](journal/r-programming/index.qmd)
+:::
+:::
+
+## Recent Posts
+
+::: {#recent-posts}
+:::

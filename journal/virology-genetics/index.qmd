@@ -1,0 +1,30 @@
+---
+title: "Virology and Genetics"
+date: 2026-03-26
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, date, description]
+---
+::: {.journal-hero}
+In this section, I discuss papers and methods related to viruses, host-pathogen interactions, genomics, and genetic analysis.
+:::
+
+
+::: {.journal-topics}
+::: {.journal-topics-card}
+### Topics Covered
+
+- viral evolution 
+- genome organization 
+- sequencing methods 
+- mutations and variants 
+- host genetics 
+- mechanisms of viral disease
+:::
+:::
+
+## Recent Posts
+
+

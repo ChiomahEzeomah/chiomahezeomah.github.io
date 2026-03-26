@@ -1,0 +1,38 @@
+---
+title: "License"
+body-classes: page-license
+---
+
+## Website Content
+
+Unless otherwise stated, the written content on this website is © 2026 Chiomah Ezeomah. All rights reserved.
+
+You may read, download, and share links to this website for personal, educational, and non-commercial purposes, provided that proper credit is given and the content is not modified in a misleading way.
+
+No part of this website may be reproduced, republished, or redistributed for commercial purposes without prior written permission.
+
+## Images
+
+Photographs and images on this website may not be reused, reproduced, or distributed without permission unless otherwise stated.
+
+## Research Articles and External Publications
+
+Links to journal articles, preprints, and other external publications remain subject to the copyright and licensing terms of their original publishers or authors.
+
+## Code and Teaching Materials
+
+Selected code snippets, teaching materials, or downloadable resources may be shared for educational use with attribution, unless a different license is explicitly provided for that material.
+
+## Contact
+
+For permissions or licensing questions, please contact:
+
+## Contact
+
+For permissions or licensing questions, please contact:
+
+::: {.license-contact}
+<a href="mailto:chiomah.ezeomah@gmail.com" aria-label="Email">
+  <i class="bi bi-envelope-fill"></i> Email me
+</a>
+:::
