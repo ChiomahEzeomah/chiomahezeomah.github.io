@@ -1,0 +1,422 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Journal Club with Chiomah",
+    "section": "",
+    "text": "Welcome to Journal Club with Chiomah, where I break down scientific papers, explain methods, discuss statistics, and teach the underlying science."
+  },
+  {
+    "objectID": "blog.html#recent-posts",
+    "href": "blog.html#recent-posts",
+    "title": "Journal Club with Chiomah",
+    "section": "Recent Posts",
+    "text": "Recent Posts\n\n\n\n\n\nCancer Research\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nBlog IMM-001: Reading Grimes et al.\n\n\n\nImmunology\n\nOncology\n\nVaccine Development\n\nStatistics\n\nJournal Club\n\n\n\nA teaching-focused journal club on Grimes et al., Part I. This post explains the background, experimental design, and interpretation of Figure 1a–e, including scRNA-seq, flow cytometry, and statistical reanalysis.\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nImmunology\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nInfectious Diseases Research\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nR Programming\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nStatistics\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nVaccine Research\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\n\n\nVirology and Genetics\n\n\n\n\n\n\n\n\nMar 26, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Thanks for stopping by.\nI am an immunologist and biostatistician / data scientist with training from Cornell University and the University of Oxford. My work sits at the intersection of immunology, infectious diseases research, vaccine development, public health implementation, and scientific communication.\nI am especially interested in using science, data, and education to strengthen infectious diseases response systems and to make complex biomedical ideas easier to understand.\nYou can learn more about my research in Research, explore my scientific implementation work in Consulting, and follow my paper breakdowns and tutorials in Blog."
+  },
+  {
+    "objectID": "about.html#hey-im-happy-youre-here",
+    "href": "about.html#hey-im-happy-youre-here",
+    "title": "About",
+    "section": "",
+    "text": "Thanks for stopping by.\nI am an immunologist and biostatistician / data scientist with training from Cornell University and the University of Oxford. My work sits at the intersection of immunology, infectious diseases research, vaccine development, public health implementation, and scientific communication.\nI am especially interested in using science, data, and education to strengthen infectious diseases response systems and to make complex biomedical ideas easier to understand.\nYou can learn more about my research in Research, explore my scientific implementation work in Consulting, and follow my paper breakdowns and tutorials in Blog."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "About me",
+    "text": "About me\n\n\nBackground\nI hold a Master of Science degree in Biostatistics and Data Science from Cornell University and a Master of Science degree in Integrated Immunology from the University of Oxford.\nPrior to my master’s training, I graduated magna cum laude with a Bachelor of Science degree in Biological Sciences with honors and a Bachelor of Arts degree in Mathematics-Economics with honors and distinction from the University at Buffalo.\nI have extensive experience in virology research, biostatistics, infectious diseases implementation, vaccine development, scientific consulting, and biosafety capacity building through work connected to the Galveston National Laboratory, Cornell University, the University of Oxford, the Oxford Vaccine Group and Biosafety Management Company.\n\n\n\nConsulting Work\nI founded Biosafety Management Company, a social enterprise through which we provide consulting services to strengthen infectious diseases response systems.\nOur work has included laboratory design and setup, biosafety training, and support for public health laboratory capacity. This implementation work reflects my broader scientific mission: connecting research, laboratory systems, biosafety, and public health practice.\n\n\nInterests\n\nImmunology\nInfectious diseases research\nVaccine development\nBiostatistics and data science\nScientific communication\nR programming education\n\n\nScientist • Educator • Consultant"
+  },
+  {
+    "objectID": "about.html#research-consulting-teaching",
+    "href": "about.html#research-consulting-teaching",
+    "title": "About",
+    "section": "Research | Consulting | Teaching",
+    "text": "Research | Consulting | Teaching\n\n\nResearch\n\nMy academic and translational research in virology, immunology, vaccines, and public health.\nExplore Research\n\n\nConsulting\n\nScientific consulting and capacity building in biosafety, laboratory systems, and infectious diseases response.\nExplore Consulting\n\n\nBlog\n\nJournal Club with Chiomah: paper breakdowns, methods explanations, and R-based tutorials.\nGo to Blog\n\n\nPublications\n\nSelected publications and scholarly work across virology, immunology, and public health.\nView Publications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chiomah Ezeomah",
+    "section": "",
+    "text": "I am an immunologist and biostatistician / data scientist with a strong interest in biomedical and translational research. My work is broadly centered on vaccine development across infectious diseases and other major areas of human health, with a particular focus on the immunologic mechanisms required to generate robust, durable, and protective immune responses.\nMy specific scientific interests lie in T-cell and B-cell immunology, especially in understanding how vaccines and immunologic interventions can be designed to elicit strong effector responses, establish durable immune memory, and support long-term protection against disease relapse, recurrence, or reinfection. I am especially interested in the cellular and molecular determinants of immune priming, memory formation, and immune durability, and in how these principles can be applied to the rational design and evaluation of next-generation vaccines.\nI hold a master’s degree in Biostatistics and Data Science from Cornell University, and a second master’s degree in Integrated Immunology from the University of Oxford. .\nMy work spans immunology, vaccine research, scientific consulting, biosafety, laboratory systems strengthening, public health implementation, and R-based teaching.\nAbout Research Blog"
+  },
+  {
+    "objectID": "index.html#immunologist-biostatistician-and-infectious-diseases-scientist",
+    "href": "index.html#immunologist-biostatistician-and-infectious-diseases-scientist",
+    "title": "Chiomah Ezeomah",
+    "section": "",
+    "text": "I am an immunologist and biostatistician / data scientist with a strong interest in biomedical and translational research. My work is broadly centered on vaccine development across infectious diseases and other major areas of human health, with a particular focus on the immunologic mechanisms required to generate robust, durable, and protective immune responses.\nMy specific scientific interests lie in T-cell and B-cell immunology, especially in understanding how vaccines and immunologic interventions can be designed to elicit strong effector responses, establish durable immune memory, and support long-term protection against disease relapse, recurrence, or reinfection. I am especially interested in the cellular and molecular determinants of immune priming, memory formation, and immune durability, and in how these principles can be applied to the rational design and evaluation of next-generation vaccines.\nI hold a master’s degree in Biostatistics and Data Science from Cornell University, and a second master’s degree in Integrated Immunology from the University of Oxford. .\nMy work spans immunology, vaccine research, scientific consulting, biosafety, laboratory systems strengthening, public health implementation, and R-based teaching.\nAbout Research Blog"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I have been involved in translational research projects at the Galveston National Laboratory, Cornell University, and the University of Oxford, where I trained and conducted research under the supervision and mentorship of leading scientists including Professor Slobodan Paessler, Prof. David Walker, Dr. Irma Cisneros, Professor Myung-Hee Lee, Professor Monika Safford, and Professor Teresa Lambe. My work across these institutions has spanned virology, neuroimmune responses, vaccine research, and public health outcomes."
+  },
+  {
+    "objectID": "research.html#viral-immunology-and-pathogenesis",
+    "href": "research.html#viral-immunology-and-pathogenesis",
+    "title": "Research",
+    "section": "Viral Immunology and Pathogenesis",
+    "text": "Viral Immunology and Pathogenesis\n\nLassa Fever\n\nSequelae of Lassa Fever: Post Viral Cerebellar Ataxia. OFID (2019). Link\nCase Control Study of the association between Lassa virus infection and hearing loss. In progress.\n\n\n\nNeuroimmune Research\n\nFentanyl self-administration impacts brain immune responses in male Sprague-Dawley rats. Brain, Behavior and Immunity (2020). Link\nCocaine self-administration influences central nervous system immune responses in male HIV-1 transgenic rats. Cells (2022)."
+  },
+  {
+    "objectID": "research.html#vaccine-research",
+    "href": "research.html#vaccine-research",
+    "title": "Research",
+    "section": "Vaccine Research",
+    "text": "Vaccine Research\n\nCharacterizing humoral and cellular immune responses to ChAdOx1 and mRNA New World mammarenavirus vaccine candidates in male and female BALB/c mice. University of Oxford dissertation (2024)."
+  },
+  {
+    "objectID": "research.html#clinical-and-public-health-outcomes-research",
+    "href": "research.html#clinical-and-public-health-outcomes-research",
+    "title": "Research",
+    "section": "Clinical and Public Health Outcomes Research",
+    "text": "Clinical and Public Health Outcomes Research\n\nNocturnal dipping of heart rate and blood pressure in people with HIV in Tanzania. Journal of Clinical Hypertension (2021). Link\nAssessing Mortality Differences Across Acute Respiratory Failure Management Strategies in Covid-19. Journal of Critical Care (2022). Link\nDevelopment and validation of mortality prediction models based on the social determinants of health. BMJ Journal (2024). Link"
+  },
+  {
+    "objectID": "journal/vaccine-research/index.html",
+    "href": "journal/vaccine-research/index.html",
+    "title": "Vaccine Research",
+    "section": "",
+    "text": "In this section, I break down vaccine papers, immune response data, study designs, and the translational science behind vaccine development."
+  },
+  {
+    "objectID": "journal/vaccine-research/index.html#recent-posts",
+    "href": "journal/vaccine-research/index.html#recent-posts",
+    "title": "Vaccine Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "",
+    "text": "Grimes JM, Ghosh S, Manzoor S, Li LX, Moran MM, Clements JC, Alexander SD, Markert JM, Leavenworth JW. Oncolytic reprogramming of tumor microenvironment shapes CD4⁺ T-cell memory via the IL6ra-Bcl6 axis for targeted control of glioblastoma. Nature Communications. 2025;16:1095. Open access."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#citation",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#citation",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "",
+    "text": "Grimes JM, Ghosh S, Manzoor S, Li LX, Moran MM, Clements JC, Alexander SD, Markert JM, Leavenworth JW. Oncolytic reprogramming of tumor microenvironment shapes CD4⁺ T-cell memory via the IL6ra-Bcl6 axis for targeted control of glioblastoma. Nature Communications. 2025;16:1095. Open access."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#why-this-paper-matters",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#why-this-paper-matters",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Why this paper matters",
+    "text": "Why this paper matters\nGlioblastoma multiforme (GBM) is the most common form of glioma, a type of primary brain cancer which has an incidence of about 25,000 new cases per year in the US adult population. Clinical management of GBM is faced with challenges including:\n\nGetting therapeutics to cross the blood-brain barrier and reach tumor cells.\nthe ‘cold’ state of the tumor microenvironment which causes immunosuppression that is characteristic of GBM, this cold state is a notable immune evasion mechanism in GBM.\nWith the standard of care, GBM has a high rate of recurrence with aggressive regrowth.\n\nIn this study, Grimes et al. used an oncolytic herpes simplex virus (oHSV) expressing murine IL12 (M002) to show that in murine models of GBM (GSC005), M002 alters the tumor microenvironment. Specifically, the results showed that mice treated with M002 had fewer tumor cells and microglia and more T cells in the tumor microenvironment.\nClinically, these results suggest that oHSV has the potential to induce tumor cell killing and shift the immune state from immunosuppressive ‘cold’ to immunostimulatory ‘hot’ by increasing the T cell infiltration into the TME and increasing the MHC class II (MHCII) expression on intratumoral cells including residual tumor cells. Increased MHCII expression, including on residual tumor cells may facilitate engagement with T cells and help suppress long-term recurrence.\nWhile this study was in murine models, it holds promise for clinical management of GBM in humans and can potentially improve the outcomes for patients with this form of cancer."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#main-scientific-question",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#main-scientific-question",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Main scientific question",
+    "text": "Main scientific question\nPrimary question:\nCan a neurotropic virus such as oHSV be engineered to alter the tumor microenvironment in glioblastoma multiforme and improve the therapeutic outcomes of patients with this form of cancer?\nMechanistic question:\nBy what mechanism does oHSV boost anti-tumor immune responses and how long does that immunity last?"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper.",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#analysis-part-i-part-i-of-this-analysis-will-focus-on-result-1-from-the-paper.",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Analysis Part I: Part I of this analysis will focus on result 1 from the paper.",
+    "text": "Analysis Part I: Part I of this analysis will focus on result 1 from the paper.\nResult 1: Treatment with oncolytic herpes simplex virus expressing murine IL12 (M002) alters the immunophenotype of the GBM tumor microenvironment in syngeneic murine models (GSC005) and upregulates the expression of MHCII molecules on residual tumor cells."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#study-design-for-fig.-1a-c",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#study-design-for-fig.-1a-c",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Study design for Fig. 1a-c",
+    "text": "Study design for Fig. 1a-c\n\n\n\nSchematic 1: Experimental workflow summarizing the in vivo design for Fig. 1a–c.\n\n\n\nFig. 1a-c:\nStudy Design: The authors used a controlled, cross-sectional in-vivo animal study to investigate changes to the tumor microenvironment following oHSV treatment using single-cell RNA-seq.\nSyngeneic murine model: GSC005, a syngeneic murine GBM model in C57BL/6 (B6) mice.\nTime point: day 45\nN: M002 (n=3); saline (n=3)\nMethod: Single-cell RNA transcriptomics\nNote: Although 15,241 cells were analyzed, the experimental unit is the mouse, not the cell."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#study-design-for-fig.-1d-e",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#study-design-for-fig.-1d-e",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Study design for Fig. 1d-e",
+    "text": "Study design for Fig. 1d-e\n\n\n\nSchematic 2: Experimental workflow summarizing the in vivo design for Fig. 1d-e.\n\n\n\nFig. 1d-e:\nStudy Design: The authors utilized a factorial, independent-samples experimental in vivo study design to investigate the correlation between oHSV treatment and MHCII expression on tumor cells using flow cytometry.\nSyngeneic murine model: GSC005, a syngeneic murine GBM model in C57BL/6 (B6) mice.\nTime point: days 2, 14, 30, and 41 (the paper’s figure legend refers to day 4.5 rather than day 2; here I follow the main-text wording for consistency with the narrative)\nN: day 2 [M002 (n=5); saline (n=5)]; day 14 [M002 (n=6); saline (n=6)]; day 30 [M002 (n=5); saline (n=5)] and day 41 [M002 (n=6), saline (n=6)]\nNote: The paper contains a discrepancy between day 2 in the main text and day 4.5 in the figure legend. In this journal review, I follow the main-text day 2 wording for consistency, while acknowledging the discrepancy.\nMethod: Flow cytometry"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#methods-explained",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#methods-explained",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Methods explained",
+    "text": "Methods explained\n\nSingle-Cell RNA-seq\nIn summary, single cell RNA-seq (scRNA-seq) was used in this paper (Fig 1a, 1b & 1c) to analyze the cellular makeup of the tumor microenvironment and to characterize treatment-associated changes that might modulate immune responses to oHSV.\n\n\nFlow cytometry\nAdditionally, flow cytometry was used to measure the frequency of MHCII-positive tumor cells and the fluorescence intensity of MHCII expression in those cells."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#key-results",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#key-results",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Key results",
+    "text": "Key results\nKey definitions the authors used:\n\nT cells: Cells with cd3e and cd3g &gt; 1\nMyeloid cells: All myeloid cells except dendritic cells (DCs)\nNon-T CD45+ cells: CD45⁺ cells except T, myeloid and microglia\nOther CD45- cells: CD45⁻ cells except tumor cells\n\nPart I: Key findings from these assays include:\n\noHSV treatment restructured the immune phenotype of the GBM microenvironment by increasing T cells and decreasing tumor cells and microglia. It also significantly upregulated MHCII expression on residual tumor cells in oHSV-treated mice."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#results-explained",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#results-explained",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Results Explained",
+    "text": "Results Explained\nBased on Fig. 1a-e:\n\nOverall, oHSV treatment restructured the immune phenotype of the GBM microenvironment by decreasing tumor cells and microglia and increasing T cells. Furthermore, it increased the expression of MHCII on residual tumor cells.\n\nFig. 1a-b interpretation: The authors analyzed 15,241 cells following scRNA-sequencing:\nIn Fig. 1a, UMAP dimensionality reduction was used to cluster the cells based on cell markers. The UMAP analysis showed distinct cell populations including tumor cells, T cells, non-T CD45⁺ cells, other CD45⁻ cells, myeloid cells and microglia present in the TME of both M002- and saline-treated mice.\nIn Fig. 1b, compared to saline-treated mice, the relative proportion of T cells and non-T CD45⁺ cells increased, while the relative proportion of tumor cells and microglia decreased in M002-treated mice, demonstrating an altered immune profile following oHSV treatment. Together, these changes are consistent with a restructuring of the TME from a colder to a more inflamed state, marked by increased T-cell infiltration and evidence of tumor-cell killing following oHSV treatment.\nFig. 1c interpretation: The authors then examined MHCII-related gene expression across the 15,241-cell dataset in greater detail.\nIn Fig. 1c, overall, visual inspection suggests that M002 increased the expression of MHCII-related genes across several intratumoral cell populations. Specifically, we observe an M002-dependent increase in classical MHCII genes: H2-Ab1; H2-Aa, H2-Eb1 and in the non-classical MHCII gene: H2-DMb1 in non-T CD45⁺ cells. In microglial cells, we observe an M002-dependent increase in the expression of non-classical MHCII genes: H2-DMa; H2-DMb1 & H2-Oa. While in myeloid cells, we observe an M002-driven increase in classical MHCII genes: H2-Ab1, H2-Aa & H2-Ea. Notably, in tumor cells, an increase in M002-treated mice compared with controls is seen in the classical MHCII gene H2-Ab1.\nFig 1d-e interpretation:\nNote: This interpretation is based on the two-way ANOVA performed here for teaching purposes, not on the unpaired Student’s t test reported by the authors in the paper.\nFrequency vs time: Two-way ANOVA revealed no significant main effect of treatment on frequency of expression of MHCII, F(1,36) = 3.27, p = 0.0788, no significant main effect of day on expression of MHCII, F(3,36) = 1.10, p = 0.3636, and no significant treatment-by-day interaction, F(3,36) = 1.66, p = 0.1923.\nMFI vs time: Two-way ANOVA on log-transformed MFI revealed a significant main effect of treatment, F(1,36) = 6.35, p = 0.0163, and a significant main effect of day, F(3,36) = 10.44, p = 4.38 × 10^-5, with no significant treatment × day interaction, F(3,36) = 0.824, p = 0.489. Residuals did not significantly deviate from normality after transformation (Shapiro–Wilk W = 0.964, p = 0.186), and Levene’s test showed no significant heterogeneity of variance (F(7,36) = 2.13, p = 0.065).\nAlthough frequency showed no significant main effects or interaction, the log-transformed MFI showed significant main effects of treatment and day, indicating that the detectable signal was stronger for expression intensity than for the proportion of positive cells. This is likely reflective of a larger biological effect on per-cell expression."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#statistics-explained-fig.-1e-only",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#statistics-explained-fig.-1e-only",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Statistics explained (Fig. 1e Only)",
+    "text": "Statistics explained (Fig. 1e Only)\nThe authors used the unpaired Student’s t test. The main assumptions of an unpaired Student’s t test include:\n\nIndependence of observations: In this study, that means each mouse should appear in only one group, treatment or control. Furthermore, and each mouse should be sampled once with no repeated measurements from the same mouse.\nContinuous outcomes For this study, the Fig. 1e outcomes are continuous rather than discrete or categorical.\nApproximately normal distribution within each group\nEqual variances between groups\nNo extreme outliers\n\nAlthough this study compares two independent groups, it also includes two factors: treatment (M002 vs Saline) and time after treatment (in days). A biologically important question is whether the treatment effect changes over time. For that reason, although the authors used an unpaired Student’s t test, an alternative teaching approach is to fit a two-way ANOVA, I present below.\nNOTE:\n\nThis analysis uses the published mouse-level data as a teaching example for statistical comparison. The analysis shown here is not the authors’ original inferential workflow.\nThis section includes the R code used for exploratory data analysis, ANOVA, post hoc analysis where applicable, and visualization with jittered dot plots.\n\nHere I used readxl to read in the data (Note: original data obtained directly from this paper was used).\n\n\nClick here to view code for reading in excel spreadsheet\n\n\n#Read in the data using readxl\nlibrary(tidyverse)\nlibrary(readr)\nlibrary(readxl)\ngrimes_fig1e &lt;- read_xlsx(\"./data/grimes_fig1e.xlsx\")\n\n\nHere I subset the data to separate the frequency data from the mfi data\n\n\nClick here to view code for subsetting data\n\n\n#Subset the data to create two data sets for frequency and mfi\ngrimes1e.freq &lt;- subset(grimes_fig1e, (outcome == \"Frequency\"))\ngrimes1e.mfi &lt;- subset(grimes_fig1e, (outcome == \"MFI\"))\n\n\n\nAnalyzing frequency data with two-way ANOVA\nI first fit the two-way ANOVA model to the frequency data\n\n\nClick here to view frequency ANOVA code\n\n\n#Two-way ANOVA to assess main and interaction effects \ngrimes1e.freq$day &lt;- factor(grimes1e.freq$day, levels = c(\"Day2\", \"Day14\", \"Day30\", \"Day41\"))\ngrimes1e.freq$treatment &lt;- factor(grimes1e.freq$treatment, levels = c(\"Saline\", \"M002\"))\n\ngrimes1e.freq.model &lt;- aov(value ~ treatment * day, data = grimes1e.freq)\n\n\nResult interpretation: The two-way ANOVA result showed no significant main effect of treatment and no evidence of a time-by-treatment interaction in this teaching analysis\n\n\nClick to view raw frequency ANOVA output\n\n\nsummary(grimes1e.freq.model)\n\n              Df Sum Sq Mean Sq F value Pr(&gt;F)  \ntreatment      1    545   544.9   3.273 0.0788 .\nday            3    547   182.4   1.095 0.3636  \ntreatment:day  3    830   276.8   1.662 0.1923  \nResiduals     36   5994   166.5                 \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nNext, I checked whether the assumptions of the two-way ANOVA were reasonably met:\n\n\nNormality of Residuals:\nI started by examining whether the residuals were approximately normally distributed?\nNext, I checked the normality assumption\n\n\nClick here to view frequency Shapiro Wilk test code\n\n\n#Shapiro Wilk test for normality \nsw.f1e.freq&lt;- shapiro.test(residuals(grimes1e.freq.model))\n\n\nResult Interpretation: The Shapiro-Wilk test gave p = 0.0915 which is greater than 0.05. Therefore, there is no significant evidence that the residuals deviate from normality. Additionally, the W statistic (0.956) is close to 1, consistent with approximate normality.\n\n\nClick to view frequency Shapiro Wilk normality output\n\n\nsw.f1e.freq\n\n\n    Shapiro-Wilk normality test\n\ndata:  residuals(grimes1e.freq.model)\nW = 0.95592, p-value = 0.09152\n\n\n\n\n\nQ-Q Plot\n\n\nClick here to view frequency Q-Q plot code\n\n\n#Q-Q plots for visual inspection of normality\nqqnorm(residuals(grimes1e.freq.model))\nqqline(residuals(grimes1e.freq.model))\n\n\n\n\n\n\n\n\n\nResult Interpretation The Q-Q plot provides a visual check of the residual distribution. From the Q-Q plot above, we observe that most point line close to the reference line, with a few deviations. On the right-hand side of the plot, we observe an upper right-hand tail and on the left-hand side of the plot, a little left-hand tail. Based on both the Q-Q plot and the Shapiro-Wilk test for normality suggests that the residuals are approximately normal and that the normality assumption is acceptable.\n\n\nHomoscedasticity\nThen, I checked the equal variance assumption\n\n\nClick here to view frequency Levene test code\n\n\n#Levene test for variance\n#| message: false\n#| warning: false\nlibrary(car)\n\nLoading required package: carData\n\n\n\nAttaching package: 'car'\n\n\nThe following object is masked from 'package:dplyr':\n\n    recode\n\n\nThe following object is masked from 'package:purrr':\n\n    some\n\nlev.f1e.freq &lt;- leveneTest(value ~ treatment * day, data = grimes1e.freq)\n\n\nResult Interpretation: Levene’s test assesses whether the variances are similar across groups. Here, p = 0.227 and F = 1.4221, so there is no significant evidence of unequal variances.\n\n\nClick to view frequency Levene test for variance output\n\n\nlev.f1e.freq\n\nLevene's Test for Homogeneity of Variance (center = median)\n      Df F value Pr(&gt;F)\ngroup  7  1.4224 0.2267\n      36               \n\n\n\nOverall interpretation: For MHCII frequency, the two-way ANOVA showed no significant main effect of treatment, F(1,36) = 3.27, p = 0.0788, no significant main effect of day, F(3,36) = 1.10, p = 0.3636, and no significant treatment-by-day interaction, F(3,36) = 1.66, p = 0.1923.\n\n\nVisualizing MHCII Frequency over time\nNext, I visualized the data\n\n\nClick here to view code for frequency vs time jittered dot plot\n\n\nmhcii.freq.plot &lt;- ggplot(grimes1e.freq,\n            aes(x = factor(day), y = value, color = treatment)) +\n  geom_point(\n    aes(fill = treatment),\n    position = position_jitterdodge(jitter.width = 0.08, dodge.width = 0.45),\n    shape = 21,\n    size = 3,\n    stroke = 1,\n    alpha = 0.9\n  ) +\n  stat_summary(\n    fun = median,\n    geom = \"point\",\n    position = position_dodge(width = 0.45),\n    shape = 95,\n    size = 8\n  ) +\n  stat_summary(\n  fun.data = median_hilow,\n  fun.args = list(conf.int = 0.5),\n  geom = \"linerange\",\n  position = position_dodge(width = 0.45),\n  linewidth = 0.8\n) +\n  scale_color_manual(values = c(\"Saline\" = \"#00cc99\", \"M002\" = \"#024A86\")) +\n  scale_fill_manual(values = c(\"Saline\" = \"white\", \"M002\" = \"white\")) +\n  scale_y_continuous(limits = c(0, 75), expand = c(0, 0)) +\n  labs(\n    x = \"days Post-Treatment\",\n    y = \"%MHCII+CD45-GFP+\",\n    color = \"Treatment\",\n    fill = \"Treatment\"\n  ) +\n  theme_classic(base_size = 14)\n\n\n\nmhcii.freq.plot\n\n\n\n\n\n\n\n\nAttribution: Replotted from data reported in Grimes et al., Nature Communications (2025). Plot style and statistical analysis in this tutorial differ from the original publication.\nMHCII Freq Interpretation: For the frequency of MHCII-positive CD45⁻GFP⁺ cells, the two-way ANOVA showed no statistically significant main effect of treatment, F(1,36)=3.27, p=0.0788, no significant main effect of day, F(3,36)=1.10, p=0.3636, and no significant treatment-by-day interaction, F(3,36)=1.66, p=0.1923. Model assumptions were reasonably met (Shapiro–Wilk W=0.956, p=0.0915; Levene’s test F(7,36)=1.42, p=0.2267).\n\n\nAnalyzing MFI data with two-way ANOVA\nHere, I first fit the two-way ANOVA model to the mean fluorescence intensity (mfi) data\n\n\nClick here to view mfi ANOVA code\n\n\n#Two-way ANOVA to assess main and interaction effects \ngrimes1e.mfi$day &lt;- factor(grimes1e.mfi$day, levels = c(\"Day2\", \"Day14\", \"Day30\", \"Day41\"))\ngrimes1e.mfi$treatment &lt;- factor(grimes1e.mfi$treatment, levels = c(\"Saline\", \"M002\"))\n\ngrimes1e.mfi.model &lt;- aov(value ~ treatment * day, data = grimes1e.mfi)\n\n\nResult interpretation: The initial two-way ANOVA for raw MFI suggested a significant main effect of treatment, with no evidence of a time-by-treatment interaction in this teaching analysis\n\n\nClick to view raw mfi ANOVA output\n\n\nsummary(grimes1e.mfi.model)\n\n              Df  Sum Sq Mean Sq F value  Pr(&gt;F)    \ntreatment      1 1090530 1090530   5.493 0.02473 *  \nday            3 4591097 1530366   7.709 0.00042 ***\ntreatment:day  3  170618   56873   0.286 0.83483    \nResiduals     36 7146696  198519                    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n\n\nNormality of Residuals:\nNext, I checked the normality assumption\n\n\nClick here to view mfi Shapiro Wilk test code\n\n\nsw.f1e.mfi &lt;- shapiro.test(residuals(grimes1e.mfi.model))\n\n\nResult Interpretation: The Shapiro-Wilk test gave p = 0.000959, which is less than 0.05, so we reject the null hypothesis of normality. This indicates that the raw MFI residuals are not normally distributed.\n\n\nClick here to view mfi Shapiro Wilk normality output\n\n\nsw.f1e.mfi\n\n\n    Shapiro-Wilk normality test\n\ndata:  residuals(grimes1e.mfi.model)\nW = 0.8982, p-value = 0.0009588\n\n\n\n\n\nQ-Q Plot\n\n\nClick here to view mfi Q-Q plot code\n\n\nqqnorm(residuals(grimes1e.mfi.model))\nqqline(residuals(grimes1e.mfi.model))\n\n\n\n\n\n\n\n\n\nResult interpretation: The Q–Q plot shows a clear outlier in the right tail and noticeable deviations from the reference line, which is consistent with the Shapiro–Wilk result indicating non-normal residuals.\n\n\nHomoscedasticity\nThen, I checked the equal variance assumption\n\n\nClick here to view mfi Levene test for variance code\n\n\nlev.f1e.mfi &lt;- leveneTest(value ~ treatment * day, data = grimes1e.mfi)\n\n\nResult Interpretation: Levene’s test was not statistically significant, F(7,36) = 2.20, p = 0.057, thus there is no significant evidence of unequal variances across the groups.\n\n\nClick here to view mfi Levene test output\n\n\nlev.f1e.mfi\n\nLevene's Test for Homogeneity of Variance (center = median)\n      Df F value  Pr(&gt;F)  \ngroup  7  2.2035 0.05707 .\n      36                  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nSince the normality assumption was violated, we can transform the data to see if the transformed data will be reasonably normally distributed. Thus, we first try a log transformation.\n\n\nLog-transformation of MFI model\nBecause the raw MFI residuals were non-normal, I applied a log transformation to the raw data\n\n\nClick here to view the mfi log-transformation code\n\n\n#Log transformation of mfi variable\ngrimes1e.mfi$log_value &lt;- log(grimes1e.mfi$value)\n\n\n\n\nTwo-way ANOVA of Log-transformed MFI variable\nThen, I refit the two-way ANOVA model to the log of mean fluorescence intensity (mfi)\n\n\nClick here to view log-transformed mfi ANOVA code\n\n\ngrimes1e.mfi.log.model &lt;- aov(log_value ~ treatment * day, data = grimes1e.mfi)\n\nResult interpretation: The two-way ANOVA result, of the log-transformed mfi data, below showed a significant main effect of treatment, with no evidence of a time-by-treatment interaction in this teaching analysis.\n\n\nClick here to view log-transformed mfi ANOVA output\n\n\nsummary(grimes1e.mfi.log.model)\n\n              Df Sum Sq Mean Sq F value   Pr(&gt;F)    \ntreatment      1 0.3356  0.3356   6.352   0.0163 *  \nday            3 1.6550  0.5517  10.442 4.38e-05 ***\ntreatment:day  3 0.1306  0.0435   0.824   0.4894    \nResiduals     36 1.9020  0.0528                     \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n\n\nNormality of Residuals:\nNext, I checked the normality assumption of the residuals of the log-transformed data\n\n\nClick here to view log-transformed mfi Shapiro Wilk test code\n\n\nsw.f1e.logmfi &lt;- shapiro.test(residuals(grimes1e.mfi.log.model))\n\n\nResult Interpretation: The Shapiro–Wilk test for the log-transformed model gave p = 0.1863, which is greater than 0.05. Therefore, there is no significant evidence that the residuals deviate from normality after log transformation.\n\n\nClick here to view log-transformed mfi Shapiro Wilk normality output\n\n\nsw.f1e.logmfi\n\n\n    Shapiro-Wilk normality test\n\ndata:  residuals(grimes1e.mfi.log.model)\nW = 0.96419, p-value = 0.1863\n\n\n\n\n\nQ-Q Plots\n\n\nClick here to view the log-transformed mfi Q-Q plot code\n\n\nqqnorm(residuals(grimes1e.mfi.log.model))\nqqline(residuals(grimes1e.mfi.log.model))\n\n\n\n\n\n\n\n\n\nResult Interpretation: Levene’s test for the log-transformed model gave p = 0.065 and F = 2.131, so there is no significant evidence of unequal variances across groups.\n\n\nHomoscedasticity\nThen, I checked the equal variance assumption of the log-transformed data\n\n\nClick here to view log-transformed mfi Levene test code\n\n\nlibrary(car)\nlev.f1e.logmfi &lt;- leveneTest(log_value ~ treatment * day, data = grimes1e.mfi)\n\n\nResult Interpretation: The p = 0.065 &gt; 0.05 and F statistic is 2.131, thus we do not reject homogeneity of variance. There is therefore no significant evidence of unequal variances across the groups.\n\n\nClick here to view the log-transformed mfi Levene test for variance output\n\n\nlev.f1e.logmfi\n\nLevene's Test for Homogeneity of Variance (center = median)\n      Df F value  Pr(&gt;F)  \ngroup  7  2.1314 0.06497 .\n      36                  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#post-hoc-analysis",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#post-hoc-analysis",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Post-hoc analysis",
+    "text": "Post-hoc analysis\nBecause the model assumptions were reasonably satisfied after log transformation, I then used post hoc comparisons to interpret the significant main effects.\n\nPost-hoc analysis for day\nI then used post hoc comparisons to interpret the significant main effects\n\n\nClick here to view post hoc analysis for day code\n\n\nlibrary(emmeans)\nph.day.f1e.logmfi &lt;- emmeans(grimes1e.mfi.log.model, pairwise ~ day, adjust = \"tukey\")\n\nResult Interpretation: Tukey-adjusted post hoc comparisons showed that log(MFI) was significantly higher on day 30 and day 41 than at day 14, and significantly higher on day 30 and day 41 than at day 2. No significant differences were detected between day 2 and day 14 or between day 30 and day 41.\n\n\nClick here to view post hoc analysis for day output\n\n\nph.day.f1e.logmfi\n\n$emmeans\n day   emmean     SE df lower.CL upper.CL\n Day2    7.25 0.0727 36     7.11     7.40\n Day14   7.13 0.0664 36     6.99     7.26\n Day30   7.53 0.0727 36     7.39     7.68\n Day41   7.58 0.0664 36     7.45     7.72\n\nResults are averaged over the levels of: treatment \nConfidence level used: 0.95 \n\n$contrasts\n contrast      estimate     SE df t.ratio p.value\n Day2 - Day14    0.1271 0.0984 36   1.291  0.5744\n Day2 - Day30   -0.2801 0.1030 36  -2.725  0.0465\n Day2 - Day41   -0.3286 0.0984 36  -3.339  0.0101\n Day14 - Day30  -0.4072 0.0984 36  -4.137  0.0011\n Day14 - Day41  -0.4557 0.0938 36  -4.856  0.0001\n Day30 - Day41  -0.0485 0.0984 36  -0.493  0.9603\n\nResults are averaged over the levels of: treatment \nP value adjustment: tukey method for comparing a family of 4 estimates \n\n\n\n\n\nTreatment marginal means\n\n\nClick here to view post hoc analysis for treatment code\n\n\nph.treatment.f1e.logmfi &lt;- emmeans(grimes1e.mfi.log.model, pairwise ~ treatment)\n\nNOTE: Results may be misleading due to involvement in interactions\n\n\n\nResult Interpretation: Estimated marginal means showed that log(MFI) was significantly higher in M002 than in Saline when averaged across days (difference = 0.165, p = 0.0229).\n\n\nClick here to view post hoc analysis for treatment output\n\n\nph.treatment.f1e.logmfi\n\n$emmeans\n treatment emmean     SE df lower.CL upper.CL\n Saline      7.29 0.0492 36     7.19     7.39\n M002        7.46 0.0492 36     7.36     7.56\n\nResults are averaged over the levels of: day \nConfidence level used: 0.95 \n\n$contrasts\n contrast      estimate     SE df t.ratio p.value\n Saline - M002   -0.165 0.0696 36  -2.377  0.0229\n\nResults are averaged over the levels of: day \n\n\n\n\n\nTreatment comparisons within each day\n\n\nClick here to view post hoc within day code\n\n\nph.wday.f1e.logmfi &lt;- emmeans(grimes1e.mfi.log.model, pairwise ~ treatment | day, adjust = \"holm\")\n\n\nResult Interpretation: Exploratory within-day comparisons suggested a significant M002 vs Saline difference at day 14, although the overall treatment-by-day interaction was not significant.\n\n\nClick here to view post hoc within day output\n\n\nph.wday.f1e.logmfi\n\n$emmeans\nday = Day2:\n treatment emmean     SE df lower.CL upper.CL\n Saline      7.22 0.1030 36     7.01     7.43\n M002        7.29 0.1030 36     7.08     7.50\n\nday = Day14:\n treatment emmean     SE df lower.CL upper.CL\n Saline      6.97 0.0938 36     6.77     7.16\n M002        7.29 0.0938 36     7.10     7.48\n\nday = Day30:\n treatment emmean     SE df lower.CL upper.CL\n Saline      7.50 0.1030 36     7.30     7.71\n M002        7.56 0.1030 36     7.35     7.77\n\nday = Day41:\n treatment emmean     SE df lower.CL upper.CL\n Saline      7.48 0.0938 36     7.28     7.67\n M002        7.69 0.0938 36     7.50     7.88\n\nConfidence level used: 0.95 \n\n$contrasts\nday = Day2:\n contrast      estimate    SE df t.ratio p.value\n Saline - M002  -0.0689 0.145 36  -0.474  0.6385\n\nday = Day14:\n contrast      estimate    SE df t.ratio p.value\n Saline - M002  -0.3213 0.133 36  -2.421  0.0206\n\nday = Day30:\n contrast      estimate    SE df t.ratio p.value\n Saline - M002  -0.0586 0.145 36  -0.403  0.6892\n\nday = Day41:\n contrast      estimate    SE df t.ratio p.value\n Saline - M002  -0.2128 0.133 36  -1.604  0.1175\n\n\n\nOverall Interpretation of ANOVA model: Residuals from the raw MFI model deviated from normality, MFI values were log-transformed prior to analysis. Two-way ANOVA on log-transformed MFI revealed a significant main effect of treatment, F(1,36) = 6.35, p = 0.0163, and a significant main effect of day, F(3,36) = 10.44, p = 4.38 × 10^-5, with no significant treatment × day interaction, F(3,36) = 0.824, p = 0.489. Residuals did not significantly deviate from normality after transformation (Shapiro–Wilk W = 0.964, p = 0.186), and Levene’s test showed no significant heterogeneity of variance (F(7,36) = 2.13, p = 0.065).\n\n\nVisualizing MHCII MFI over time\nNext, I visualized the data\n\n\nClick here to view code for mfi vs time jittered dot plot code\n\n\nmhcii.mfi.plot &lt;- ggplot(grimes1e.mfi,\n            aes(x = factor(day), y = value, color = treatment)) +\n  geom_point(\n    aes(fill = treatment),\n    position = position_jitterdodge(jitter.width = 0.08, dodge.width = 0.45),\n    shape = 21,\n    size = 3,\n    stroke = 1,\n    alpha = 0.9\n  ) +\n  stat_summary(\n    fun = median,\n    geom = \"point\",\n    position = position_dodge(width = 0.45),\n    shape = 95,\n    size = 8\n  ) +\n  stat_summary(\n  fun.data = median_hilow,\n  fun.args = list(conf.int = 0.5),\n  geom = \"linerange\",\n  position = position_dodge(width = 0.45),\n  linewidth = 0.8\n) +\n  scale_color_manual(values = c(\"Saline\" = \"#00cc99\", \"M002\" = \"#024A86\")) +\n  scale_fill_manual(values = c(\"Saline\" = \"white\", \"M002\" = \"white\")) +\n  scale_y_continuous(limits = c(0, 4000), expand = c(0, 0)) +\n  labs(\n    x = \"days Post-Treatment\",\n    y = \"MHCII MFI\",\n    color = \"Treatment\",\n    fill = \"Treatment\"\n  ) +\n  theme_classic(base_size = 14)\n\n\n\nmhcii.mfi.plot\n\n\n\n\n\n\n\n\nAttribution: Replotted from data reported in Grimes et al., Nature Communications (2025). Plot style and statistical analysis in this tutorial differ from the original publication.\nMHCII MFI Interpretation: For MHCII MFI in CD45⁻GFP⁺ cells, the raw-data model showed non-normal residuals, so MFI values were log-transformed before analysis. The two-way ANOVA of log-transformed MFI revealed a significant main effect of treatment F(1,36)=6.35, p=0.0163, and a significant main effect of day F(3,36)=10.44, p=4.38×10⁻⁵, with no significant treatment-by-day interaction, F(3,36)=0.824, p=0.4894. After transformation, the model assumptions were reasonably satisfied (Shapiro–Wilk W=0.964, p=0.186; Levene’s test F(7,36)=2.13, p=0.065). Tukey-adjusted post hoc comparisons indicated that MFI was higher at days 30 and 41 than at days 2 and 14, and estimated marginal means averaged across days showed that MFI was significantly higher in M002 than in Saline (p=0.0229). Here, MHCII refers to Major Histocompatibility Complex class II, and MFI refers to mean fluorescence intensity."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#strengths",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#strengths",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Strengths",
+    "text": "Strengths\nFocusing on only result 1, some strengths include:\n\nThe study design.\n\nand\n\nBiological relevance (From transcription to translation): First, the authors addressed the question of how M002 treatment alters the tumor microenvironment. They used scRNA-seq to cluster the cells and evaluate any changes to cell-type proportions. After identifying the key alterations, decreased tumor cells, suggestive of virus-mediated tumor killing, and increased T cells, they then profiled the residual tumor cells and found that MHCII pathway genes were upregulated within the tumor microenvironment, with particular interest is the increased expression observed in tumor cells.\n\nBecause Fig. 1a-c focus on the transcriptional level, the authors next interrogated these MHCII alterations at the protein level using flow cytometry to assess the frequency and magnitude of MHCII expression at different time points in M002-treated and saline-treated mice."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#limitations",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#limitations",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Limitations",
+    "text": "Limitations\nFig1a-e:\n\nPooled tumor samples eliminate mouse-to-mouse variability from the data\n1:1 ratio of CD45+:CD45- cells: Mixing CD45+ and CD45- cells at a 1:1 ratio before sequencing does not preserve the true in vivo proportionality of these cell compartments.\nThe late collection time point (day 45), together with the fact that it is the only scRNA-seq time point, does not provide insight into when TME reprogramming is first induced.\nThese experiments were performed in murine models of glioblastoma, so any translation to human cases of GBM is inferential at best."
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#in-summary",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#in-summary",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "In summary…",
+    "text": "In summary…\nThis paper by Grimes et al. presents a promising therapeutic approach to managing glioblastoma multiforme using an oncolytic herpes simplex virus. An important immune evasion mechanism employed by tumor cells in glioma is to retain the tumor microenvironment in a cold state. A cold TME is one underlying reason for the poor prognosis of this disease. Grimes et al. investigated the association between treating GBM with an oHSV expressing murine IL12 (M002) and an altered TME in GSC005 murine models of GBM. Fig. 1a-e show that oHSV treatment:\n\nAlters the TME by increasing T-cell infiltration consistent with a shift toward a more inflamed or ‘hotter’ tumor microenvironment.\nDecreases tumor-cell abundance, suggestive of active tumor killing.\nShifts the distribution of MHCII-related genes by increasing their expression across non-T CD45+, microglial, myeloid and tumor cells.\nIncreases the magnitude of MHCII expression on tumor cells"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#questions-for-further-consideration",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#questions-for-further-consideration",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "Questions for further consideration",
+    "text": "Questions for further consideration\nThink about these questions, feel free to answer them. I will discuss them in future posts.\n\nWhat is GSC005 and why is it a useful model for studying glioblastoma in mice?\nWhat markers define the following cell populations?\n\n\n\nT cells\nNon-T CD45+ cells\nMicroglial cells\nMyeloid cells\nTumor cells\nOther CD45- cells\n\n\n\nWhy do you think the authors excluded T cells from the analysis in Fig 1c?\nThe authors found that the magnitude of MHCII expression on tumor cells increased as a result of oHSV treatment. Why do you think this is important?\nWhat are the main differences between an unpaired Student’s t test and a two-way ANOVA?"
+  },
+  {
+    "objectID": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#references-and-image-credits",
+    "href": "journal/immunology/2026-03-26-glioma-paper-grimes-etal.html#references-and-image-credits",
+    "title": "Blog IMM-001: Reading Grimes et al.",
+    "section": "References and image credits",
+    "text": "References and image credits\nThis tutorial is inspired by:\nGrimes JM, Ghosh S, Manzoor S, Li LX, Moran MM, Clements JC, Alexander SD, Markert JM, Leavenworth JW. Oncolytic reprogramming of tumor microenvironment shapes CD4⁺ T-cell memory via the IL6ra-Bcl6 axis for targeted control of glioblastoma. Nature Communications. 2025;16:1095. Open access.\nAll tutorial UMAPs, stacked bar plots, violin plots, and program-score plots shown here are simulated examples created for teaching purposes and are not reproduced from the original paper, except where explicitly noted.\nWhere I use the paper’s reported real data (for example, replotting Fig. 1e-style measurements for teaching statistics), those plots are my own reanalysis/revisualization of data reported in Grimes et al. and not the original published figure design. Any alternative statistical tests shown in this tutorial are my own teaching analysis and may differ from the statistical methods reported in the original paper."
+  },
+  {
+    "objectID": "journal/cancer-research/index.html",
+    "href": "journal/cancer-research/index.html",
+    "title": "Cancer Research",
+    "section": "",
+    "text": "In this section, I review cancer research papers and explain the methods, statistics, and biological reasoning behind the findings."
+  },
+  {
+    "objectID": "journal/cancer-research/index.html#recent-posts",
+    "href": "journal/cancer-research/index.html#recent-posts",
+    "title": "Cancer Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/statistics/index.html",
+    "href": "journal/statistics/index.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "In this section, I explain statistical methods used in biomedical and public health research in a clear and practical way."
+  },
+  {
+    "objectID": "journal/statistics/index.html#recent-posts",
+    "href": "journal/statistics/index.html#recent-posts",
+    "title": "Statistics",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/r-programming/index.html",
+    "href": "journal/r-programming/index.html",
+    "title": "R Programming",
+    "section": "",
+    "text": "In this section, I teach R programming for scientists, including data analysis, reproducible workflows, and recreating published figures from Creative Commons papers."
+  },
+  {
+    "objectID": "journal/r-programming/index.html#recent-posts",
+    "href": "journal/r-programming/index.html#recent-posts",
+    "title": "R Programming",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/virology-genetics/index.html",
+    "href": "journal/virology-genetics/index.html",
+    "title": "Virology and Genetics",
+    "section": "",
+    "text": "In this section, I discuss papers and methods related to viruses, host-pathogen interactions, genomics, and genetic analysis."
+  },
+  {
+    "objectID": "journal/virology-genetics/index.html#recent-posts",
+    "href": "journal/virology-genetics/index.html#recent-posts",
+    "title": "Virology and Genetics",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/immunology/index.html",
+    "href": "journal/immunology/index.html",
+    "title": "Immunology",
+    "section": "",
+    "text": "In this section, I review cancer research papers, methods, experimental design, and the interpretation of immunologic data in a clear, teaching-oriented format."
+  },
+  {
+    "objectID": "journal/immunology/index.html#recent-posts",
+    "href": "journal/immunology/index.html#recent-posts",
+    "title": "Immunology",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "journal/infectious-diseases/index.html",
+    "href": "journal/infectious-diseases/index.html",
+    "title": "Infectious Diseases Research",
+    "section": "",
+    "text": "In this section, I analyze infectious diseases papers and discuss epidemiology, immunology, implementation, and statistical methods.\nTopics may include:"
+  },
+  {
+    "objectID": "journal/infectious-diseases/index.html#recent-posts",
+    "href": "journal/infectious-diseases/index.html#recent-posts",
+    "title": "Infectious Diseases Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Scientific Consulting & Capacity Building",
+    "section": "",
+    "text": "When I left Nigeria to pursue my studies in the United States, my dearly beloved father, Professor Ardo Chimah Ezeomah had one important wish for me. As a distinguished Nigerian professor, he believed strongly that one of my responsibilities as a Nigerian was to return home someday and contribute meaningfully to the growth of my country. He hoped that whatever knowledge, training, and opportunities I gained abroad would ultimately be used in service of Nigeria.\nThat conviction stayed with me. In time, I used the social enterprise I founded, Biosafety Management Company, as a vehicle to help fulfill that wish. Through it, I was able to contribute to laboratory systems strengthening, biosafety capacity building, infectious disease preparedness, and public health implementation in Nigeria. Looking back on this work, I feel a deep sense of gratitude and responsibility, and I now feel that I have honored that charge and paid my dues.\nFrom 2020 to about 2025, I led and contributed to scientific consulting and implementation work through Biosafety Management Company, focused on strengthening infectious diseases preparedness and laboratory systems.\nThis work reflects the applied side of my scientific mission: connecting biosafety, immunology, laboratory systems, and infectious diseases expertise to practical public health capacity building."
+  },
+  {
+    "objectID": "consulting.html#selected-work",
+    "href": "consulting.html#selected-work",
+    "title": "Scientific Consulting & Capacity Building",
+    "section": "Selected Work",
+    "text": "Selected Work\n\nLaboratory Design and Setup\nWe supported the design and setup of BSL-2 infectious diseases laboratories for:\n\n\nTaraba State\nIn 2020, Biosafety Management Company was engaged as a consultant to the Taraba State Government and the Taraba State Ministry of Health during a critical stage of the COVID-19 pandemic. At the time, Taraba State did not have in-state capacity to test for SARS-CoV-2 and had to transport samples over long distances to Abuja, approximately 609 km away, or to Jos, approximately 470 km away. This created delays in testing and placed significant strain on the state’s response capacity.\nMy first assignment was to urgently remodel a space within the state-government owned Taraba State Specialist Hospital (TSSH) to enable the commencement of SARS-CoV-2 testing in the state. This work was driven by the immediate need to expand local diagnostic capacity and reduce turnaround times for COVID-19 testing.\nBecause Taraba State is geographically large, we also worked collaboratively with UNHCR to expand testing access beyond the state capital. UNHCR provided funding for remodeling, while Biosafety Management Company led the setup of COVID-19 testing capacity at General Hospital Takum.\nIn addition, we remodeled another space within the Taraba State Specialist Hospital into a BSL-2 infectious disease laboratory to strengthen the state’s longer-term laboratory infrastructure. In 2021, this laboratory was visited by Kathleen FitzGibbon, then U.S. Deputy Chief of Mission, alongside colleagues from the U.S. CDC and the U.S. Department of Defense. The laboratory was later selected by NACA for upgrade to a BSL-3 laboratory with funding from the Global Fund, reflecting its strategic importance to infectious disease preparedness and response in the North-East and in Nigeria.\nFurthermore, in Taraba State, we were also engaged by the Federal Medical Center, Jalingo to design a purpose-built laboratory facility. As part of this work, we supported the institution in developing, writing, submitting, and presenting its grant application to the North East Development Commission. The application was successful, and the Federal Medical Center, Jalingo secured grant funding for the construction of a purpose-built BSL-2 laboratory, further strengthening laboratory infrastructure and infectious disease preparedness in the state.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenue State\nIn January 2021, Biosafety Management Company was engaged as a consultant to the Benue State Government and the Benue State Ministry of Health and Human Services to design and set up the state’s first state-owned BSL infectious disease laboratory. This project represented an important step in strengthening Benue State’s laboratory infrastructure and expanding in-state diagnostic capacity for infectious diseases.\nIn addition to the laboratory design and setup, we were also engaged to train laboratory personnel who would work in the facility. As part of this effort, we delivered BSL-2 training to 20 laboratory personnel in 2022, helping to ensure that the laboratory could operate safely and effectively in line with biosafety standards.\nThe laboratory was completed in 2022, and tuberculosis testing began there that same year. Funding for the laboratory was provided by the Benue State Government, while implementation support was strengthened through partnerships with organizations such as APIN and KNCV.\nIn 2022, the laboratory also received visits from representatives of the World Health Organization, reflecting the importance of the project within the broader public health and laboratory strengthening landscape. The laboratory was also visited at different stages of the project by His Excellency Governor Samuel Ortom and by his deputy, who served as Chairman of the COVID-19 Committee, underscoring the state government’s commitment to building sustainable infectious disease diagnostic capacity in Benue State. In 2024, the laboratory was also visited by the current governor, His Excellency Governor Hyacinth Alia, further highlighting the continued relevance of the facility to the state’s public health infrastructure.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiosafety Training\nWe delivered BSL-2 biosafety training for laboratory personnel, including work connected to: - Walter Reed Program - USAMRD-A - Nigerian laboratory partners\n\n\nUSAMRD-A/N / NMoD Donation and Training\nIn 2023, Biosafety Management Company made a donation of a SteraPak in collaboration with its U.S. manufacturers to the U.S. Army Medical Research Directorate–Africa/Nigeria (USAMRD-A/N), also known as the Walter Reed Program in Nigeria. The SteraPak was installed at one of USAMRD-A/N’s partner laboratories, the Defence Reference Laboratory in Abuja. The donation was received by the Country Director of USAMRD-A/N, Helina Meri, and on behalf of the Nigerian Ministry of Defence by the Director General of the Ministry of Defence Health Implementation Program, Brigadier General N. A. E. Okeji (Rtd.). In addition to the donation, we also provided training in 2023 on the use of the SteraPak to support its effective deployment.\nIn 2024, Biosafety Management Company was engaged by USAMRD-A/N to provide BSL-2 training to senior members of USAMRD-A/N as well as civilian and military personnel of the Nigerian Ministry of Defence. As part of this engagement, we developed the training manual and facilitated the course in Abuja for 40 participants.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstitute of Human Virology Nigeria\nIn 2023, Biosafety Management Company made a donation of the SteraPak in collaboration with its U.S. manufacturers to the Institute of Human Virology Nigeria (IHVN) Research Center of Excellence. The donation was received by senior members of the IHVN team, and as part of this contribution, we also trained laboratory personnel on the effective use of the SteraPak to support safe and efficient laboratory operations.\nFurthermore, in 2025, we supported the strengthening of IHVN’s laboratory operations through the provision of selected laboratory equipment designed to enhance workflow efficiency, operational readiness, and diagnostic capacity. This support reflected our broader mission of advancing laboratory systems strengthening and improving the infrastructure needed for high-quality infectious disease and public health laboratory practice.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNigerian Center for Disease Control\nIn 2018, I made a donation on behalf of Professor Slobodan Paessler’s group at the Galveston National Laboratory, University of Texas Medical Branch (UTMB) of laboratory diagnostic tools to the Nigerian Center for Disease Control (NCDC). The donation was received by Dr. Chikwe Ihekweazu, then Director General of the NCDC, together with other senior directors of the agency.\nIn addition, I served as a liaison on behalf of the Paessler group at the Galveston National Laboratory, supporting the transfer of biological materials between UTMB and the NCDC. This role contributed to scientific collaboration, laboratory partnership, and the strengthening of research and public health linkages between both institutions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVRI VOM, Plateau State Nigeria\nBefore graduating from the University at Buffalo, I completed an undergraduate thesis as part of both the University’s Honors Scholars Program and the Biology Department Honors Program. My thesis focused on Lassa fever, an experience that sparked a deeper commitment to infectious diseases research and helped define the trajectory of my scientific career.\nFollowing this work, I traveled to Nigeria to volunteer at the Jos University Teaching Hospital, University of Jos, where I gained early exposure to the practical realities of research and laboratory work in a resource-limited setting. As part of this experience, I contributed to a grant application being developed by the Paessler Group for a Lassa fever hearing loss study. In support of that effort, I also visited laboratories in Jos, Plateau State, to help identify a facility that would be well suited for collaboration with UTMB. This experience was formative: it connected my academic training to real-world laboratory and public health needs, introduced me to the importance of scientific partnerships across institutions and countries, and laid the foundation for my later work in laboratory systems strengthening, infectious disease implementation, and international scientific collaboration.\nVisit on behalf of the Paessler Group at the GNL, UTMB, Texas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLassa Fever International Conference: “50 Years of Lassa Fever: Rising to the Challenge, 2019, Nigeria\nIn 2019, I joined a team of distinguished professors from the University of Texas Medical Branch (UTMB), including my principal investigator, Professor Slobodan Paessler, and collaborators such as Professor Oyewale Tomori, in attending the 50 Years of Lassa Fever Conference organized by the Nigerian Center for Disease Control (NCDC) in Abuja, Nigeria. The conference provided an important forum for scientific exchange on Lassa fever research, public health response, and future directions in control and prevention."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A study examining post-viral cerebellar ataxia as a sequela of Lassa fever and its implications for clinical recognition and long-term outcomes.\n\nRESEARCH LASSA FEVER NEUROLOGY\n\n\n\n\n2019\n\n\nChiomah Ezeomah, Adeyi Adoga, Chikwe Ihekweazu, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, David Walker\n\n\n\n\n\n\nA neuroimmunology study exploring how fentanyl exposure alters brain immune responses in a preclinical rat model.\n\nRESEARCH NEUROIMMUNOLOGY FENTANYL\n\n\n\n\n2020\n\n\nChiomah Ezeomah, Kathryn Cunningham, Sonja Stutz, Robert Fox, Natalya Bukreyeva, Kelly Dineley, Slobodan Paessler, Irma Cisneros\n\n\n\n\n\n\nA virology and cell biology study examining how the glycoprotein of the live-attenuated Junin virus vaccine strain induces endoplasmic reticulum stress and forms aggregates before lysosomal degradation.\n\nRESEARCH VIROLOGY JUNIN VIRUS\n\n\n\n\n2020\n\n\nJohn Manning, Nadya Yun, Alexey Seregin, Takaaki Koma, Rachel Sattler, Chiomah Ezeomah, Cheng Huang, Juan de la Torre, Slobodan Paessler\n\n\n\n\n\n\nA clinical outcomes study investigating nocturnal cardiovascular patterns in people living with HIV.\n\nRESEARCH HIV CARDIOVASCULAR\n\n\n\n\n2021\n\n\nCody Nolan, Karl Reis, Salama Fadhil, Anthony Etyang, Chiomah Ezeomah, Justin R. Kingery, Bernard Desderius, Myung-Hee Lee, Saidi Kapiga, Robert N. Peck\n\n\n\n\n\n\nA study evaluating mortality differences across respiratory failure management strategies during the COVID-19 pandemic.\n\nRESEARCH COVID-19 CRITICAL CARE\n\n\n\n\n2022\n\n\nJamuna Krishnan, Mangala Rajan, Benjamin Baer, Katherine Hoffman, Mark Alshak, Kerri Aronson, Parag Goyal, Chiomah Ezeomah, Shana Hill, Fernando Martinez, Meredith Turetz, Martin Wells, Edward Schenck, Monika Safford\n\n\n\n\n\n\nA neuroimmunology study investigating how cocaine self-administration shapes central nervous system immune responses in male HIV-1 transgenic rats.\n\nRESEARCH NEUROIMMUNOLOGY COCAINE\n\n\n\n\n2022\n\n\nChiomah Ezeomah, Chanida Fongsaran, Amanda Persons, Celeste Napier, Irma Cisneros\n\n\n\n\n\n\nA public health and predictive modeling study focused on mortality prediction using social determinants of health.\n\nRESEARCH PREDICTION MODELING PUBLIC HEALTH\n\n\n\n\n2024\n\n\nKhalid Fahoum, Joanna Bryan Ringel, Jana Hirsch, Andrew Rundle, Emily Levitan, Evgeniya Reshetnyak, Madeline Sterling, Chiomah Ezeomah, Parag Goyal, Monika Safford"
+  },
+  {
+    "objectID": "publications.html#sequelae-of-lassa-fever-post-viral-cerebellar-ataxia",
+    "href": "publications.html#sequelae-of-lassa-fever-post-viral-cerebellar-ataxia",
+    "title": "Publications",
+    "section": "",
+    "text": "A study examining post-viral cerebellar ataxia as a sequela of Lassa fever and its implications for clinical recognition and long-term outcomes.\n\nRESEARCH LASSA FEVER NEUROLOGY"
+  },
+  {
+    "objectID": "publications.html#fentanyl-self-administration-impacts-brain-immune-responses-in-male-sprague-dawley-rats",
+    "href": "publications.html#fentanyl-self-administration-impacts-brain-immune-responses-in-male-sprague-dawley-rats",
+    "title": "Publications",
+    "section": "",
+    "text": "A neuroimmunology study exploring how fentanyl exposure alters brain immune responses in a preclinical rat model.\n\nRESEARCH NEUROIMMUNOLOGY FENTANYL"
+  },
+  {
+    "objectID": "publications.html#the-glycoprotein-of-the-live-attenuated-junin-virus-vaccine-strain-induces-er-stress-and-forms-aggregates-prior-to-degradation-in-the-lysosome",
+    "href": "publications.html#the-glycoprotein-of-the-live-attenuated-junin-virus-vaccine-strain-induces-er-stress-and-forms-aggregates-prior-to-degradation-in-the-lysosome",
+    "title": "Publications",
+    "section": "",
+    "text": "A virology and cell biology study examining how the glycoprotein of the live-attenuated Junin virus vaccine strain induces endoplasmic reticulum stress and forms aggregates before lysosomal degradation.\n\nRESEARCH VIROLOGY JUNIN VIRUS"
+  },
+  {
+    "objectID": "publications.html#nocturnal-dipping-of-heart-rate-and-blood-pressure-in-people-with-hiv-in-tanzania",
+    "href": "publications.html#nocturnal-dipping-of-heart-rate-and-blood-pressure-in-people-with-hiv-in-tanzania",
+    "title": "Publications",
+    "section": "",
+    "text": "A clinical outcomes study investigating nocturnal cardiovascular patterns in people living with HIV.\n\nRESEARCH HIV CARDIOVASCULAR"
+  },
+  {
+    "objectID": "publications.html#assessing-mortality-differences-across-acute-respiratory-failure-management-strategies-in-covid-19",
+    "href": "publications.html#assessing-mortality-differences-across-acute-respiratory-failure-management-strategies-in-covid-19",
+    "title": "Publications",
+    "section": "",
+    "text": "A study evaluating mortality differences across respiratory failure management strategies during the COVID-19 pandemic.\n\nRESEARCH COVID-19 CRITICAL CARE"
+  },
+  {
+    "objectID": "publications.html#cocaine-self-administration-influences-central-nervous-system-immune-responses-in-male-hiv-1-transgenic-rats",
+    "href": "publications.html#cocaine-self-administration-influences-central-nervous-system-immune-responses-in-male-hiv-1-transgenic-rats",
+    "title": "Publications",
+    "section": "",
+    "text": "A neuroimmunology study investigating how cocaine self-administration shapes central nervous system immune responses in male HIV-1 transgenic rats.\n\nRESEARCH NEUROIMMUNOLOGY COCAINE"
+  },
+  {
+    "objectID": "publications.html#development-and-validation-of-mortality-prediction-models-based-on-the-social-determinants-of-health",
+    "href": "publications.html#development-and-validation-of-mortality-prediction-models-based-on-the-social-determinants-of-health",
+    "title": "Publications",
+    "section": "",
+    "text": "A public health and predictive modeling study focused on mortality prediction using social determinants of health.\n\nRESEARCH PREDICTION MODELING PUBLIC HEALTH"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "Unless otherwise stated, the written content on this website is © 2026 Chiomah Ezeomah. All rights reserved.\nYou may read, download, and share links to this website for personal, educational, and non-commercial purposes, provided that proper credit is given and the content is not modified in a misleading way.\nNo part of this website may be reproduced, republished, or redistributed for commercial purposes without prior written permission."
+  },
+  {
+    "objectID": "license.html#website-content",
+    "href": "license.html#website-content",
+    "title": "License",
+    "section": "",
+    "text": "Unless otherwise stated, the written content on this website is © 2026 Chiomah Ezeomah. All rights reserved.\nYou may read, download, and share links to this website for personal, educational, and non-commercial purposes, provided that proper credit is given and the content is not modified in a misleading way.\nNo part of this website may be reproduced, republished, or redistributed for commercial purposes without prior written permission."
+  },
+  {
+    "objectID": "license.html#images",
+    "href": "license.html#images",
+    "title": "License",
+    "section": "Images",
+    "text": "Images\nPhotographs and images on this website may not be reused, reproduced, or distributed without permission unless otherwise stated."
+  },
+  {
+    "objectID": "license.html#research-articles-and-external-publications",
+    "href": "license.html#research-articles-and-external-publications",
+    "title": "License",
+    "section": "Research Articles and External Publications",
+    "text": "Research Articles and External Publications\nLinks to journal articles, preprints, and other external publications remain subject to the copyright and licensing terms of their original publishers or authors."
+  },
+  {
+    "objectID": "license.html#code-and-teaching-materials",
+    "href": "license.html#code-and-teaching-materials",
+    "title": "License",
+    "section": "Code and Teaching Materials",
+    "text": "Code and Teaching Materials\nSelected code snippets, teaching materials, or downloadable resources may be shared for educational use with attribution, unless a different license is explicitly provided for that material."
+  },
+  {
+    "objectID": "license.html#contact",
+    "href": "license.html#contact",
+    "title": "License",
+    "section": "Contact",
+    "text": "Contact\nFor permissions or licensing questions, please contact:"
+  },
+  {
+    "objectID": "license.html#contact-1",
+    "href": "license.html#contact-1",
+    "title": "License",
+    "section": "Contact",
+    "text": "Contact\nFor permissions or licensing questions, please contact:\n\n  Email me"
+  }
+]
