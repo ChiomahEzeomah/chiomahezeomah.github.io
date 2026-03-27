@@ -30,17 +30,7 @@ main.content,
   box-sizing: border-box;
 }
 
-/* =========================
-   Global brand tokens
-========================= */
 
-:root {
-  --brand-teal: #3C8D82;
-  --brand-teal-dark: #2F7F73;
-  --brand-teal-soft: rgba(110, 198, 180, 0.10);
-  --brand-navy: #18395b;
-  --brand-serif: Georgia, "Times New Roman", serif;
-}
 
 /* =========================
    Navbar
@@ -94,18 +84,47 @@ main.content,
 }
 
 /* =========================
+   Global brand tokens
+========================= */
+
+:root {
+  --brand-teal: #6EC6B4;
+  --brand-teal-dark: #2F7F73;
+  --brand-teal-soft: rgba(110, 198, 180, 0.10);
+  --brand-navy: #18395b;
+  --brand-navy-soft: #274765;
+  --brand-text: #31484e;
+  --brand-muted: #4f666d;
+  --brand-serif: Georgia, "Times New Roman", serif;
+  --brand-sans: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* =========================
    Titles and headings
 ========================= */
 
 .quarto-title-block .title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.4rem;
+  font-family: var(--brand-serif);
+  font-size: 2.5rem;
   font-weight: 500;
-  letter-spacing: -0.01em;
-  color: #274765;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.06;
+  color: var(--brand-navy);
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+}
+
+.quarto-title-block .subtitle {
+  font-family: var(--brand-sans);
+  font-size: 1.0rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--brand-muted);
+  text-align: center;
+  max-width: 980px;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
 }
 
 h1, h2, h3, h4 {
@@ -125,18 +144,66 @@ h3 {
   margin-top: 1.4rem;
 }
 
-/* centered page headers for consulting/blog */
+/* centered page headers for consulting/blog if needed */
 .center-title .quarto-title-block,
-.center-title .quarto-title-block .title {
+.center-title .quarto-title-block .title,
+.center-title .quarto-title-block .subtitle {
   text-align: center;
 }
 
 .about-page-heading {
   text-align: center;
-  font-family: Georgia, "Times New Roman", serif;
-  color: #18395b;
+  font-family: var(--brand-serif);
+  color: var(--brand-navy);
 }
 
+/* =========================
+   Editorial post header
+========================= */
+
+.post-kicker {
+  font-family: var(--brand-serif);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #3C8D82;
+  margin-bottom: 0.9rem;
+}
+
+.quarto-title-meta {
+  border-top: 1px solid rgba(24, 57, 91, 0.10);
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+}
+
+.quarto-title-meta-heading {
+  font-family: var(--brand-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #60757b;
+}
+
+.quarto-title-meta-contents {
+  font-size: 1.05rem;
+  color: #27424b;
+}
+
+/* =========================
+   Mobile title adjustments
+========================= */
+
+@media (max-width: 900px) {
+  .quarto-title-block .title {
+    font-size: 2.35rem;
+  }
+
+  .quarto-title-block .subtitle {
+    font-size: 1.08rem;
+  }
+}
 /* =========================
    Links
 ========================= */
@@ -885,26 +952,26 @@ h1, h2, h3.page-category, .section-title {
   color: var(--brand-navy);
 }
 
-/* =========================
-   Global brand tokens
-========================= */
-
-:root {
-  --brand-teal: #6EC6B4;
-  --brand-teal-dark: #2F7F73;
-  --brand-teal-soft: rgba(110, 198, 180, 0.10);
-  --brand-navy: #18395b;
-  --brand-serif: Georgia, "Times New Roman", serif;
-}
 
 /* =========================
    Editorial categories / tags
 ========================= */
 
+/* Container for post categories */
+.quarto-categories,
+.listing-categories,
+.quarto-title-block .quarto-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  margin: 1.2rem auto 1.4rem auto;
+}
+
 /* Small category pills that appear on posts */
 .quarto-category {
   display: inline-block;
-  margin: 0.2rem 0.35rem 0.2rem 0;
+  margin: 0;
   padding: 0.22rem 0.72rem;
   border: 1px solid rgba(47, 127, 115, 0.35);
   border-radius: 999px;

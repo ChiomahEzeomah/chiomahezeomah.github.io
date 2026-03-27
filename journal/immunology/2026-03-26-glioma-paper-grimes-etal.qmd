@@ -1,5 +1,6 @@
 ---
-title: "Blog IMM-001- Reading Grimes et al., Part I: oHSV alters the TME and increases MHCII on residual tumor cells - Fig. 1a - e"
+title: "Blog IMM-001: Reading Grimes et al."
+subtitle: "Part I: oHSV alters the TME and increases MHCII on residual tumor cells - Fig. 1a - e"
 blog-number: "Blog Number: Blog IMM-001" 
 author: "Author/Curator: Chiomah Ezeomah"
 date: 2026-03-26

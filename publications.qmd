@@ -54,6 +54,30 @@ Chiomah Ezeomah, Kathryn Cunningham, Sonja Stutz, Robert Fox, Natalya Bukreyeva,
 
 ::: {.pub-item}
 ::: {.pub-main}
+## The Glycoprotein of the Live-Attenuated Junin Virus Vaccine Strain Induces ER Stress and Forms Aggregates Prior to Degradation in the Lysosome
+
+A virology and cell biology study examining how the glycoprotein of the live-attenuated Junin virus vaccine strain induces endoplasmic reticulum stress and forms aggregates before lysosomal degradation.
+
+::: {.pub-tags}
+[RESEARCH](#){.pub-tag}
+[VIROLOGY](#){.pub-tag}
+[JUNIN VIRUS](#){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2020
+:::
+
+::: {.pub-authors}
+John Manning, Nadya Yun, Alexey Seregin, Takaaki Koma, Rachel Sattler, Chiomah Ezeomah, Cheng Huang, Juan de la Torre, Slobodan Paessler
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
 ## Nocturnal Dipping of Heart Rate and Blood Pressure in People with HIV in Tanzania
 
 A clinical outcomes study investigating nocturnal cardiovascular patterns in people living with HIV.
@@ -96,6 +120,30 @@ A study evaluating mortality differences across respiratory failure management s
 
 ::: {.pub-authors}
 Jamuna Krishnan, Mangala Rajan, Benjamin Baer, Katherine Hoffman, Mark Alshak, Kerri Aronson, Parag Goyal, Chiomah Ezeomah, Shana Hill, Fernando Martinez, Meredith Turetz, Martin Wells, Edward Schenck, Monika Safford
+:::
+:::
+:::
+
+::: {.pub-item}
+::: {.pub-main}
+## Cocaine Self-Administration Influences Central Nervous System Immune Responses in Male HIV-1 Transgenic Rats
+
+A neuroimmunology study investigating how cocaine self-administration shapes central nervous system immune responses in male HIV-1 transgenic rats.
+
+::: {.pub-tags}
+[RESEARCH](#){.pub-tag}
+[NEUROIMMUNOLOGY](#){.pub-tag}
+[COCAINE](#){.pub-tag}
+:::
+:::
+
+::: {.pub-meta}
+::: {.pub-date}
+2022
+:::
+
+::: {.pub-authors}
+Chiomah Ezeomah, Chanida Fongsaran, Amanda Persons, Celeste Napier, Irma Cisneros
 :::
 :::
 :::
